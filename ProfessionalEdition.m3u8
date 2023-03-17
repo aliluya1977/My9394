@@ -51,6 +51,16 @@
     "ext":"https://notabug.org/qizhen15800/My9394/raw/master/xBPQ/ddys.js"
     },
     {
+	"key": "cps_t4独播",
+	"name": "🎭影视┃独播库",
+	"type": "4",
+	"api": "https://tang.run.goorm.app/duboku",
+	"playerType": 1,
+	"searchable": "1",
+	"quickSearch": "1",
+	"filterable": "1"
+    },
+    {
     "key":"csp_YQKAPP",
     "name":"🏆影视┃一起看",
     "type":3,
