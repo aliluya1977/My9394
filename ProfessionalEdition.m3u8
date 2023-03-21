@@ -156,6 +156,18 @@
       "jar":"https://notabug.org/qizhen15800/My9394/raw/master/jar/不良人.txt"
     },
     {
+    "key":"XBPQ_69美剧",
+    "name":"💛69┃美剧",
+    "type":3,
+    "api":"csp_XBPQ",
+    "m3u8ads": "hd.youyhn.com",
+    "searchable":1,
+    "quickSearch":1,
+    "filterable":1,
+    "playerType":2,
+    "ext":"https://notabug.org/qizhen15800/My9394/raw/master/xBPQ/69美剧.js"
+    },
+    {
     "key": "XPMacFilter独播库",
     "name": " 🦄影视┃独播",
     "type": 3,
@@ -165,7 +177,7 @@
     "searchable": 1,
     "filterable": 1,
     "changeable": 1,
-    "ext": "https://agit.ai/lengniuge/api/raw/branch/master/duboku"
+    "ext": "https://notabug.org/qizhen15800/My9394/raw/master/xpath/独播库.js"
   },
   { 
 "key" : "XYQH_白嫖联盟", 
@@ -936,6 +948,18 @@
     "filterable":1,
     "playerType":2,
     "ext":"https://gitee.com/qizhen169xt/cool_white/raw/master/videos-tool/xBPQ/爱看.json"
+    },
+    {
+    "key":"XBPQ_冷曦",
+    "name":"💛影视┃冷曦",
+    "type":3,
+    "api":"csp_XBPQ",
+    "m3u8ads": "hd.youyhn.com",
+    "searchable":1,
+    "quickSearch":1,
+    "filterable":1,
+    "playerType":2,
+    "ext":"https://notabug.org/qizhen15800/My9394/raw/master/xBPQ/冷曦.js"
     },
     {
     "key":"XBPQ_猫咪",
