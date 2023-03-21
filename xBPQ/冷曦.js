@@ -29,7 +29,7 @@
 
 "嗅探词":".m3u8",
 "过滤词": "=http#=https#?key=#?sign=#?url=",
-"分类":"电影$movie#电视剧$tv#综艺$zongyi#动漫$dongman#福利$fuli#直播$zhibo#体育频道$tiyu#电影解说$dianyingjieshuo#伦理$lunlipian#战争片$zhanzhengpian#剧情片$juqingpian#恐怖片$kongbupian#科幻片$kehuanpian#爱情片$aiqingpian#喜剧片$xijupian#动作片$dongzuopian#纪录片$jilupian#微电影$weidianying",
+"分类":"电影$movie#电视剧$tv#综艺$zongyi#动漫$fuli#直播$zhibo#体育频道$tiyu#电影解说$dianyingjieshuo#伦理$lunlipian#战争片$zhanzhengpian#剧情片$juqingpian#恐怖片$kongbupian#科幻片$kehuanpian#爱情片$aiqingpian#喜剧片$xijupian#动作片$dongzuopian#纪录片$jilupian#微电影$weidianying",
 "分类url":"https://www.lengxitv.com/t/{cateId}-{catePg}.html",
 "筛选":{
 "movie":[
