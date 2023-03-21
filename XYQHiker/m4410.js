@@ -64,18 +64,18 @@
     "地区详情": "",
     "演员详情": "span:has(a)&&Text",
     "简介详情": ".am-panel-bd:contains(剧情简介)&&span,1&&Text",
-    "线路列表数组规则": "body&&am-panel-bd",
+    "线路列表数组规则": "body&&.am-panel-bd",
     "线路标题": "",
-    "播放列表数组规则": "body&&.tv-res-lists",
-    "选集列表数组规则": "button",
+    "播放列表数组规则": "body&&.am-panel-bd:has(.play-source-group)||.am-panel-bd:has(.am-tabs-bd.tv-res-lists)",
+    "选集列表数组规则": "button:not(.am-btn.am-btn-sm.am-dropdown-toggle)",
     "选集标题链接是否Jsoup写法": "1",
     "选集标题": "button&&data-name",
     "选集链接": "button&&data-oriurl",
     "是否反转选集序列": "0",
-    "选集链接加前缀": "https://jx.jsonplayer.com/player/?url=",//||https://jx.777jiexi.com/player/?url=
+    "选集链接加前缀": "https://jx.777jiexi.com/player/?url=",//||https://jx.777jiexi.com/player/?url=
     "选集链接加后缀": "",
-    "分析MacPlayer": "0",
-    "是否开启手动嗅探": "0",
-    "手动嗅探视频链接关键词": ".mp4#.m3u8",
+    "分析MacPlayer": "2",
+    "是否开启手动嗅探": "1",
+    "手动嗅探视频链接关键词": ".m3u8",
     "手动嗅探视频链接过滤词": ""
 }
