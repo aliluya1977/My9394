@@ -1,6 +1,6 @@
 {
     "规则名": "布蕾蓝光影城",
-    "规则作者": "香雅情",
+    "规则作者": "Faceless Void",
     "请求头参数": "User-Agent$MOBILE_UA",
     "网页编码格式": "UTF-8",
     "图片是否需要代理": "0",
@@ -76,6 +76,6 @@
     "选集链接加后缀": "",
     "分析MacPlayer": 2",
     "是否开启手动嗅探": "1",
-    "手动嗅探视频链接关键词": ".mp4#.m3u8#.flv#video/tos#stariverpan.com:9096/ipfs",
+    "手动嗅探视频链接关键词": ".mp4#.m3u8#.flv#video/tos#stariverpan.com:9096/ipfs#ftn_handler",
     "手动嗅探视频链接过滤词": ".html#?url=http#php?v=http"
 }
