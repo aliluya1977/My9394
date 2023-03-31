@@ -1,0 +1,4 @@
+测试动物世界,#genre#
+野生白狮(上),https://hls.cntv.kcdnvip.com/asp/hls/1200/0303000a/3/default/a9a5e806d97d41f5827532f1cb3f9afa/1200.m3u8
+野生白狮(中),https://hls.cntv.kcdnvip.com/asp/hls/1200/0303000a/3/default/aa5594a7d44b42768d0b4f2fa3e3651d/1200.m3u8
+野生白狮(下),https://hls.cntv.kcdnvip.com/asp/hls/1200/0303000a/3/default/1e405a3890d3497d80df5351ad30f169/1200.m3u8
