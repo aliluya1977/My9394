@@ -42,6 +42,16 @@
     "filterable": 1
   },
   {
+    "key": "T4-Zdytv",
+    "name": "影视┃4有K",
+    "type": 4,
+    "api": "http://81.68.89.191:16888/Php/zdytv.php",
+    "searchable": 1,
+    "quickSearch": 1,
+    "filterable": 1,
+    "changeable": 0
+  },
+  {
     "key": "csp_kuaikan",
     "name": "👀影视┃快看",
     "type": 3,
@@ -439,7 +449,7 @@
     "ext": "https://notabug.org/qizhen15800/My9394/raw/master/js/艾菲影视.js"
   },
   {
-    "key": "纸条_PU画",
+    "key": "纸条_普画",
     "name": "📜纸条┃普画",
     "type": 3,
     "api": "csp_Paper",
@@ -451,7 +461,7 @@
   },
   {
     "key": "纸条_PU画",
-    "name": "📜纸条┃普画",
+    "name": "📜纸条┃PU画",
     "type": 3,
     "api": "csp_Paper",
     "searchable": 1,
@@ -473,8 +483,8 @@
     "jar": "https://notabug.org/qizhen15800/My9394/raw/master/jar/xiaomfm.jar"
   },
   {
-    "key": "纸条_普画",
-    "name": "📜纸条┃80p",
+    "key": "纸条_4K",
+    "name": "📜纸条┃4K",
     "type": 3,
     "api": "csp_Paper",
     "searchable": 1,
