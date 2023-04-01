@@ -1,6 +1,6 @@
 var rule={     
     title:'布雷蓝光',     
-    host:'https://www.bulei.cc',     
+    host:'http://movie.bulei.cc/',     
     url:'/index.php/vod/show/by/time/id/fyclass/page/fypage.html',
     searchUrl:'/index.php/vod/search/page/fypage/wd/**.html', 
     searchable:2,
