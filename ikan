@@ -457,7 +457,8 @@
     "playerType": 1,
     "filterable": 1,
     "changeable": 1,
-    "ext": "https://agit.ai/Yoursmile7/TVBox/raw/branch/master/tok.txt"
+    "ext": "https://agit.ai/Yoursmile7/TVBox/raw/branch/master/tok.txt",
+    "jar": "https://framagit.org/m131499/qq16900/-/raw/main/xiaomfm.jar"
   },
   {
     "key": "纸条_PU画",
