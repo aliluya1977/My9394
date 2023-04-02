@@ -485,7 +485,7 @@
     "api":"https://cj.lziapi.com/api.php/provide/vod/from/lzm3u8/?ac=list",
     "m3u8ads": "hd.youyhn.com",
     "searchable":1,
-    "playUrl":"",
+    "playUrl":"https://cdn.xcoo.vip/ts/?url=",
     "quickSearch":1,
     "categories":[
     "国产剧",
@@ -602,12 +602,12 @@
     "key":"zy-ffzy",
     "name":"🚡影视┃新起",
     "type":1,
-    "api":"http://www.ffzy.tv/api.php/provide/vod/",
+    "api":"http://cj.ffzyapi.com//api.php/provide/vod",
     "m3u8ads": "hd.youyhn.com",
     "searchable":1,
     "filterable":0,
     "changeable":1,
-    "playUrl":"",
+    "playUrl":"https://cdn.xcoo.vip/ts/?url=",
     "categories":[
     "国产剧",
     "国产动漫",
