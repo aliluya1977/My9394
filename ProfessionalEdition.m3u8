@@ -828,7 +828,7 @@
             "filterable": 1
         },
         {
-            "key": "🥭zy_乱舞1",
+            "key": "zy_乱舞1",
             "name": "🐧影视┃小Q",
             "type": 1,
             "api": "https://cms.json.vin/api.php/provide/vod/from/qq/?ac=list",
@@ -862,7 +862,7 @@
             ]
         },
         {
-            "key": "🥭zy_乱舞2",
+            "key": "zy_乱舞2",
             "name": "🍋影视┃小果",
             "type": 1,
             "api": "https://cms.json.vin/api.php/provide/vod/from/mgtv/?ac=list",
