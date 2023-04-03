@@ -1,862 +1,939 @@
-{//所有资源来自互联网，用于个人学习测试显示器与电池使用。未涉及商业盈利，如有侵权，请联系，会在第一时间删除谢谢.资源与内容禁止并谢绝未经本人许可下使用.未经本人许可下使用，需自行承担一切风险与责任.所有资源与内容，随时都有可能删除.未经本人许可下使用的，请慎重！慎重！慎重！
-    //不良帅整理20300102新起点
-    "sites":[{
-    "key": "drpy_农民",
-    "name": "⭕影视┃农民",
-    "type": 3,
-    "api": "https://agit.ai/qi169/kankan/raw/branch/master/libs/drpy2.min.js",
-    "ext": "https://agit.ai/qi169/kankan/raw/branch/master/js2/农民.js"
-  },
-  {
-    "key": "drpy_豆辩",
-    "name": "🏘️影视┃推荐",
-    "type": 3,
-    "api": "https://agit.ai/qi169/kankan/raw/branch/master/libs/drpy2.min.js",
-    "ext": "https://notabug.org/qizhen15800/My9394/raw/master/js/豆瓣.js"
-  },
-  {
-    "key": "drpy_狗狗",
-    "name": "🐶影视┃狗狗",
-    "type": 3,
-    "playerType": 2,
-    "api": "https://notabug.org/qizhen15800/My9394/raw/master/js/lib/drpy.min.js",
-    "ext": "https://notabug.org/qizhen15800/My9394/raw/master/js/菜狗.js"
-  },
-  {
-    "key": "csp_Kunyu77",
-    "name": " 👒影视┃七七",
-    "type": 3,
-    "api": "csp_Kunyu77",
-    "searchable": 1,
-    "quickSearch": 1,
-    "filterable": 1
-  },
-  {
-    "key": "csp_LiteApple",
-    "name": "🍎影视┃苹果",
-    "type": 3,
-    "api": "csp_LiteApple",
-    "playerType": 1,
-    "searchable": 1,
-    "quickSearch": 1,
-    "filterable": 1
-  },
-  {
-    "key": "T4-Zdytv",
-    "name": "影视┃4有K",
-    "type": 4,
-    "api": "http://81.68.89.191:16888/Php/zdytv.php",
-    "searchable": 1,
-    "quickSearch": 1,
-    "filterable": 1,
-    "changeable": 0
-  },
-  {
-    "key": "csp_kuaikan",
-    "name": "👀影视┃快看",
-    "type": 3,
-    "api": "csp_Kuaikan",
-    "searchable": 1,
-    "quickSearch": 1,
-    "filterable": 1
-  },
-  {
-    "key": "csp_Czsapp",
-    "name": "🏭影视┃厂长",
-    "type": 3,
-    "api": "csp_Czsapp",
-    "playerType": 2,
-    "searchable": 1,
-    "quickSearch": 1,
-    "filterable": 1
-  },
-  {
-    "key": "csp_DiDuan",
-    "name": "🛂影视┃低端",
-    "type": 3,
-    "api": "csp_Ddys",
-    "searchable": 1,
-    "quickSearch": 1,
-    "filterable": 0
-  },
-  {
-    "key": "drpy_饭团",
-    "name": "🍝影视┃饭团",
-    "type": 3,
-    "playerType": 2,
-    "api": "https://agit.ai/qi169/kankan/raw/branch/master/libs/drpy2.min.js",
-    "ext": "https://notabug.org/qizhen15800/My9394/raw/master/js/fantuan.js"
-  },
-  {
-	"key":"drpy_LIBV",
-	"name":"🍩影视┃利奥",
-	"type": 3,
-	"api":"https://agit.ai/qi169/kankan/raw/branch/master/libs/drpy2.min.js",
-	"ext":"https://notabug.org/qizhen15800/My9394/raw/master/js/LIBVIO.js"
-}, 
-  {
-    "key": "XYQH_盒子",
-    "name": "🎁影视┃盒子",
-    "type": 3,
-    "api": "csp_XYQHiker",
-    "searchable": 1,
-    "quickSearch": 1,
-    "filterable": 1,
-    "ext": "https://notabug.org/qizhen15800/My9394/raw/master/XYQHiker/盒子.js"
-  },
-  {
-    "key": "XYQB_酷客",
-    "name": "🏄影视┃酷酷",
-    "type": 3,
-    "api": "csp_XYQBiu",
-    "playerType": 2,
-    "searchable": 1,
-    "quickSearch": 1,
-    "filterable": 1,
-    "ext": "https://notabug.org/qizhen15800/My9394/raw/master/XYQBiu/酷客.js"
-  },
-  {
-    "key": "drpy_骚火",
-    "name": "🔥影视┃骚火",
-    "type": 3,
-    "api": "https://notabug.org/qizhen15800/My9394/raw/master/js/lib/drpy2.min.js",
-    "ext": "https://notabug.org/qizhen15800/My9394/raw/master/js/骚火.js"
-  },
-  {
-    "key": "XYQH_野荷塘",
-    "name": "🏝影视┃荷塘",
-    "type": 3,
-    "api": "csp_XYQHiker",
-    "searchable": 1,
-    "quickSearch": 1,
-    "filterable": 1,
-    "changeable": 0,
-    "ext": "https://notabug.org/qizhen15800/My9394/raw/master/XYQHiker/野荷塘.js"
-  },
-  {
-    "key": "drpy_天空",
-    "name": "🛰️影视┃天空",
-    "type": 3,
-    "api": "https://agit.ai/qi169/kankan/raw/branch/master/libs/drpy2.min.js",
-    "ext": "https://notabug.org/qizhen15800/My9394/raw/master/js/天空影视.js"
-  },
-  {
-    "key": "XYQH_布雷",
-    "name": "⚡影视┃布雷",
-    "type": 3,
-    "api": "csp_XYQHiker",
-    "searchable": 1,
-    "quickSearch": 1,
-    "filterable": 1,
-    "changeable": 0,
-    "ext": "https://notabug.org/qizhen15800/My9394/raw/master/XYQHiker/布雷.js"
-  },
-  {
-    "key": "XYQH_红领巾",
-    "name": "🎀影视┃领巾",
-    "type": 3,
-    "api": "csp_XYQHiker",
-    "searchable": 1,
-    "quickSearch": 1,
-    "filterable": 1,
-    "changeable": 0,
-    "ext": "https://notabug.org/qizhen15800/My9394/raw/master/XYQHiker/领巾.js"
-  },
-  {
-    "key": "XYQB_石榴",
-    "name": "🍈影视┃石榴",
-    "type": 3,
-    "api": "csp_XYQBiu",
-    "searchable": 1,
-    "quickSearch": 1,
-    "filterable": 1,
-    "ext": "https://notabug.org/qizhen15800/My9394/raw/master/XYQBiu/石榴.js"
-  },
-  {
-    "key": "XYQB_骚火vip",
-    "name": "🔥影视┃骚火",
-    "type": 3,
-    "api": "csp_XYQBiu",
-    "searchable": 1,
-    "quickSearch": 1,
-    "filterable": 1,
-    "changeable": 0,
-    "ext": "https://notabug.org/qizhen15800/My9394/raw/master/XYQBiu/骚火VIP.js"
-  },
-  {
-    "key": "XYQB_黑科",
-    "name": "💣影视┃黑科",
-    "type": 3,
-    "api": "csp_XYQBiu",
-    "searchable": 1,
-    "quickSearch": 1,
-    "filterable": 1,
-    "changeable": 0,
-    "ext": "https://notabug.org/qizhen15800/My9394/raw/master/XYQBiu/黑料.js"
-  },
-  {
-    "key": "XYQB_神马",
-    "name": "🐴影视┃神马",
-    "type": 3,
-    "api": "csp_XYQBiu",
-    "searchable": 1,
-    "quickSearch": 1,
-    "filterable": 1,
-    "changeable": 0,
-    "ext": "https://notabug.org/qizhen15800/My9394/raw/master/XYQBiu/神马.js"
-  },
-  {
-    "key": "XYQB_饭团",
-    "name": "🍙影视┃饭团",
-    "type": 3,
-    "api": "csp_XYQHiker",
-    "searchable": 1,
-    "quickSearch": 1,
-    "filterable": 1,
-    "changeable": 0,
-    "ext": "https://notabug.org/qizhen15800/My9394/raw/master/XYQBiu/饭团.js"
-  },
-  {
-    "key": "玩家点播",
-    "name": "🔁电视┃点播等待……",
-    "type": 3,
-    "playerType": 1,
-    "api": "https://notabug.org/qizhen15800/My9394/raw/master/js/lib/直播转点播.js",
-    "ext": "少儿动漫剧集$https://notabug.org/qizhen15800/My9394/raw/master/live/少儿动漫.txt#歌曲mv$https://notabug.org/qizhen15800/My9394/raw/master/live/歌曲mv.txt#动物世界$https://notabug.org/qizhen15800/My9394/raw/master/live/动物世界.txt#荒野求生$https://notabug.org/qizhen15800/My9394/raw/master/live/荒野求生.txt#女团太妍$https://notabug.org/qizhen15800/My9394/raw/master/live/女团太妍.txt#戏曲$https://notabug.org/qizhen15800/My9394/raw/master/live/戏曲.txt#小品$https://notabug.org/qizhen15800/My9394/raw/master/live/小品.txt#三年之约$https://notabug.org/qizhen15800/My9394/raw/master/live/三年之约.txt&&&https://notabug.org/qizhen15800/My9394/raw/master/live/不良帅.png"
-  },
-  {
-    "key": "玩家直播",
-    "name": "🔄电视┃直播等待……",
-    "type": 3,
-    "playerType": 1,
-    "api": "https://agit.ai/lengniuge/js/raw/branch/master/直播转点播.js",
-    "ext": "cctvipv6$https://notabug.org/qizhen15800/My9394/raw/master/live/cctv.txt#地方台ipv6$https://notabug.org/qizhen15800/My9394/raw/master/live/卫视地方台.txt#影视$https://notabug.org/qizhen15800/My9394/raw/master/live/影视.txt#科教$https://notabug.org/qizhen15800/My9394/raw/master/live/科教.txt#体育$https://notabug.org/qizhen15800/My9394/raw/master/live/体育.txt&&&https://notabug.org/qizhen15800/My9394/raw/master/live/不良帅.png"
-  },
-  {
-	"key":"drpy_神马",
-	"name":"🐴影视┃神马",
-	"type": 3,
-	"api":"https://agit.ai/qi169/myklok/raw/branch/master/libs/drpy.min.js",
-	"ext":"https://notabug.org/qizhen15800/My9394/raw/master/js/神马影视.js"
-}, 
 {
-	"key":"drpy_视觉",
-	"name":"🔭影视┃视觉",
-	"type": 3,
-	"api":"https://agit.ai/qi169/myklok/raw/branch/master/libs/drpy.min.js",
-	"ext":"https://notabug.org/qizhen15800/My9394/raw/master/js/视觉.js"
-}, 
-{
-	"key":"drpy_鸭飞",
-	"name":"🦆影视┃鸭飞",
-	"type": 3,
-	"api":"https://agit.ai/qi169/myklok/raw/branch/master/libs/drpy.min.js",
-	"ext":"https://notabug.org/qizhen15800/My9394/raw/master/js/鸭奈飞.js"
-}, 
-  {
-    "key": "XYQH_启蒙",
-    "name": "👪儿童┃启蒙",
-    "type": 3,
-    "api": "csp_XYQHiker",
-    "searchable": 1,
-    "quickSearch": 1,
-    "filterable": 0,
-    "changeable": 0,
-    "ext": "https://notabug.org/qizhen15800/My9394/raw/master/XYQHiker/兔小贝启蒙.js"
-  },
-  {
-    "key": "XYQH_儿歌",
-    "name": "👪儿童┃儿歌",
-    "type": 3,
-    "api": "csp_XYQHiker",
-    "searchable": 1,
-    "quickSearch": 1,
-    "filterable": 0,
-    "changeable": 0,
-    "ext": "https://notabug.org/qizhen15800/My9394/raw/master/XYQHiker/兔小贝儿歌.js"
-  },
-  {
-  "key": "zyml_量子",
-  "name": "影视┃量子",
-  "type": 1,
-  "api": "https://cj.lziapi.com/api.php/provide/vod/",
-  "playUrl": "",
-  "searchable": 1,
-  "quickSearch": 1,
-  "filterable": 1,
-  "categories": ["国产剧", "欧美剧", "香港剧", "韩国剧", "台湾剧", "日本剧", "海外剧", "泰国剧", "国产动漫", "动作片", "喜剧片", "科幻片", "爱情片", "恐怖片", "剧情片", "战争片", "记录片", "日韩动漫", "欧美动漫", "港台动漫", "海外动漫", "大陆综艺", "港台综艺", "日韩综艺", "欧美综艺"]
-},
-{
-  "key": "zyxml_非凡",
-  "name": "影视┃非凡",
-  "type": 1,
-  "api": "http://www.ffzy.tv/api.php/provide/vod/",
-  "playUrl": "",
-  "searchable": 1,
-  "quickSearch": 1,
-  "filterable": 1,
-  "categories": ["国产剧", "欧美剧", "香港剧", "韩国剧", "台湾剧", "日本剧", "动作片", "喜剧片", "科幻片", "恐怖片", "爱情片", "剧情片", "战争片", "记录片", "海外剧", "泰国剧", "国产动漫", "日韩动漫", "欧美动漫", "港台动漫", "海外动漫", "大陆综艺", "港台综艺", "日韩综艺", "欧美综艺"]
-},
-{
-    "key": "drpy_诺溪",
-    "name": "🍥影视┃诺溪",
-    "type": 3,
-    "api": "https://notabug.org/qizhen15800/My9394/raw/master/js/lib/drpy2.min.js",
-    "ext": "https://notabug.org/qizhen15800/My9394/raw/master/js/诺讯.js"
-  },
-  {
-    "key": "drpy_大师兄",
-    "name": "👽影视┃师兄",
-    "type": 3,
-    "api": "https://notabug.org/qizhen15800/My9394/raw/master/js/lib/drpy2.min.js",
-    "ext": "https://notabug.org/qizhen15800/My9394/raw/master/js/大师兄.js"
-  },
-  {
-    "key": "XYQH_白嫖联盟",
-    "name": "🥨影视┃联盟",
-    "type": 3,
-    "api": "csp_XYQHiker",
-    "searchable": 1,
-    "quickSearch": 1,
-    "filterable": 1,
-    "changeable": 0,
-    "ext": "https://notabug.org/qizhen15800/My9394/raw/master/XYQHiker/联盟.js"
-  },
-  {
-    "key": "drpy_爱看",
-    "name": "👾影视┃爱看",
-    "type": 3,
-    "playerType": 2,
-    "api": "https://notabug.org/qizhen15800/My9394/raw/master/js/lib/drpy2.min.js",
-    "ext": "https://notabug.org/qizhen15800/My9394/raw/master/js/爱看.js"
-  },
-  {
-    "key": "XYQH_皮鸭",
-    "name": "🦆影视┃皮鸭",
-    "type": 3,
-    "api": "csp_XYQHiker",
-    "searchable": 1,
-    "quickSearch": 1,
-    "filterable": 0,
-    "changeable": 0,
-    "ext": "https://notabug.org/qizhen15800/My9394/raw/master/XYQHiker/皮皮鸭.js"
-  },
-  {
-    "key": "XYQH_星辰",
-    "name": "🎇影视┃星辰",
-    "type": 3,
-    "api": "csp_XYQHiker",
-    "searchable": 1,
-    "quickSearch": 1,
-    "filterable": 1,
-    "ext": "https://notabug.org/qizhen15800/My9394/raw/master/XYQHiker/星辰.js"
-  },
-  {
-    "key": "XYQH_很卡",
-    "name": "🆖影视┃很卡",
-    "type": 3,
-    "api": "csp_XYQHiker",
-    "searchable": 1,
-    "quickSearch": 1,
-    "filterable": 0,
-    "changeable": 0,
-    "ext": "https://notabug.org/qizhen15800/My9394/raw/master/XYQHiker/很卡.js"
-  },
-  {
-    "key": "zy_乱舞7",
-    "name": "🔆影视┃明明",
-    "type": 1,
-    "api": "https://ys.md214.cn/api.php/provide/vod/",
-    "m3u8ads": "hd.youyhn.com",
-    "searchable": 1,
-    "quickSearch": 1,
-    "filterable": 1,
-    "categories": ["大陆剧", "电影", "连续剧", "综艺", "动漫", "直播"]
-  },
-  {
-    "key": "drpy_小Q",
-    "name": "🐧影视┃小Q",
-    "type": 3,
-    "playerType": 2,
-    "api": "https://notabug.org/qizhen15800/My9394/raw/master/js/lib/drpy.min.js",
-    "ext": "https://notabug.org/qizhen15800/My9394/raw/master/js/腾云.js"
-  },
-  {
-    "key": "drpy_忙果",
-    "name": "🍋影视┃忙果",
-    "type": 3,
-    "api": "https://notabug.org/qizhen15800/My9394/raw/master/js/lib/drpy.min.js",
-    "ext": "https://notabug.org/qizhen15800/My9394/raw/master/js/百忙无果.js"
-  },
-  {
-    "key": "drpy_U酷",
-    "name": "🆒影视┃U酷",
-    "type": 3,
-    "api": "https://notabug.org/qizhen15800/My9394/raw/master/js/lib/drpy.min.js",
-    "ext": "https://notabug.org/qizhen15800/My9394/raw/master/js/优酷.js"
-  },
-  {
-    "key": "drpy_假哔站",
-    "name": "🅱️影视┃哔站",
-    "type": 3,
-    "api": "https://notabug.org/qizhen15800/My9394/raw/master/js/lib/drpy2.min.js",
-    "ext": "https://notabug.org/qizhen15800/My9394/raw/master/js/哔站.js"
-  },
-  {
-    "key": "drpy_创艺",
-    "name": "🍥影视┃创艺",
-    "type": 3,
-    "api": "https://notabug.org/qizhen15800/My9394/raw/master/js/lib/drpy2.min.js",
-    "ext": "https://notabug.org/qizhen15800/My9394/raw/master/js/创艺.js"
-  },
-  {
-    "key": "XPath_独播库",
-    "name": " 🦄影视┃独播",
-    "type": 3,
-    "api": "csp_XPathMacFilter",
-    "playerType": 1,
-    "searchable": 1,
-    "filterable": 1,
-    "changeable": 1,
-    "ext": "https://notabug.org/qizhen15800/My9394/raw/master/xpath/独播库.js"
-  },
-  {
-    "key": "XYQH_独播库",
-    "name": "🦄影视┃独播",
-    "type": 3,
-    "api": "csp_XYQHiker",
-    "searchable": 1,
-    "quickSearch": 1,
-    "filterable": 1,
-    "changeable": 0,
-    "ext": "https://notabug.org/qizhen15800/My9394/raw/master/XYQHiker/独播库.js"
-  },
-  {
-    "key": "XPath_8z",
-    "name": "3️⃣影视┃348",
-    "type": 3,
-    "api": "csp_XPathFilter",
-    "searchable": 1,
-    "quickSearch": 1,
-    "filterable": 1,
-    "ext": "https://notabug.org/qizhen15800/My9394/raw/master/xpath/348.js"
-  },
-  {
-    "key": "drpy_爱妃",
-    "name": "🌹影视┃爱妃",
-    "type": 3,
-    "api": "https://agit.ai/qi169/kankan/raw/branch/master/libs/drpy2.min.js",
-    "ext": "https://notabug.org/qizhen15800/My9394/raw/master/js/艾菲影视.js"
-  },
-  {
-    "key": "纸条_普画",
-    "name": "📜纸条┃普画",
-    "type": 3,
-    "api": "csp_Paper",
-    "searchable": 1,
-    "playerType": 1,
-    "filterable": 1,
-    "changeable": 1,
-    "ext": "https://agit.ai/Yoursmile7/TVBox/raw/branch/master/tok.txt",
-    "jar": "https://framagit.org/m131499/qq16900/-/raw/main/xiaomfm.jar"
-  },
-  {
-    "key": "纸条_PU画",
-    "name": "📜纸条┃PU画",
-    "type": 3,
-    "api": "csp_Paper",
-    "searchable": 1,
-    "playerType": 1,
-    "filterable": 1,
-    "changeable": 1,
-    "ext": "https://agit.ai/qi169/kankan/raw/branch/master/ali/token.txt"
-  },
-  {
-    "key": "纸条_4有k",
-    "name": "📜纸条┃4有k",
-    "type": 3,
-    "api": "csp_Paper",
-    "searchable": 1,
-    "playerType": 1,
-    "filterable": 1,
-    "changeable": 1,
-    "ext": "https://agit.ai/qi169/kankan/raw/branch/master/ali/token.txt",
-    "jar": "https://notabug.org/qizhen15800/My9394/raw/master/jar/xiaomfm.jar"
-  },
-  {
-    "key": "纸条_4K",
-    "name": "📜纸条┃4K",
-    "type": 3,
-    "api": "csp_Paper",
-    "searchable": 1,
-    "playerType": 1,
-    "filterable": 1,
-    "changeable": 1,
-    "ext": "https://agit.ai/Yoursmile7/TVBox/raw/branch/master/tok.txt",
-    "jar": "https://notabug.org/qizhen15800/My9394/raw/master/jar/xiaomfm.jar"
-  },
-  {
-    "key": "找资源",
-    "name": "🔍搜索┃找资源",
-    "type": 3,
-    "api": "csp_Zhaozy",
-    "playerType": 1,
-    "searchable": 1,
-    "quickSearch": 1,
-    "filterable": 1,
-    "ext": "https://agit.ai/qi169/kankan/raw/branch/master/ali/token.txt$$$yingshi$$$abcd1234"
-  },
-  {
-    "key": "XYQH_柠檬tv",
-    "name": "🎇电视┃柠檬",
-    "type": 3,
-    "api": "csp_XYQHiker",
-    "searchable": 1,
-    "quickSearch": 1,
-    "filterable": 1,
-    "ext": "https://notabug.org/qizhen15800/My9394/raw/master/XYQHiker/柠檬2.js"
-  },
-  {
-    "key": "XYQH_有声小说",
-    "name": "🎧有声┃小说",
-    "type": 3,
-    "api": "csp_XYQHiker",
-    "searchable": 1,
-    "quickSearch": 1,
-    "filterable": 1,
-    "ext": "https://notabug.org/qizhen15800/My9394/raw/master/XYQHiker/有声小说.js"
-  },
-  {
-    "key": "drpy_a8",
-    "name": "🎵MV┃A8",
-    "type": 3,
-    "api": "https://notabug.org/qizhen15800/My9394/raw/master/js/lib/drpy2.min.js",
-    "ext": "https://notabug.org/qizhen15800/My9394/raw/master/js/a8.js"
-  },
-  {
-    "key": "drpy_酷6",
-    "name": "📽️媒体┃酷6",
-    "type": 3,
-    "api": "https://notabug.org/qizhen15800/My9394/raw/master/js/lib/drpy2.min.js",
-    "ext": "https://notabug.org/qizhen15800/My9394/raw/master/js/ku6.js"
-  },
-  {
-    "key": "XYQH_呦呦Dj",
-    "name": "🎧DJ┃呦呦",
-    "type": 3,
-    "api": "csp_XYQHiker",
-    "searchable": 1,
-    "quickSearch": 1,
-    "filterable": 1,
-    "ext": "https://notabug.org/qizhen15800/My9394/raw/master/XYQHiker/呦呦.js"
-  },
-  {
-    "key":"drpy_kugou",
-    "name":"🎵DJ┃酷狗",
-    "type":3,
-    "api":"https://notabug.org/qizhen15800/My9394/raw/master/js/lib/drpy.min.js",
-    "ext":"https://notabug.org/qizhen15800/My9394/raw/master/js/kugou.js",
-    "playerType":"2"
-    },
-    {
-    "key":"XBPQ_酷奇",
-    "name":"🎵MV┃酷奇",
-    "type":3,
-    "api":"csp_XBPQ",
-    "searchable":1,
-    "quickSearch":1,
-    "filterable":1,
-    "ext":"https://notabug.org/qizhen15800/My9394/raw/master/xBPQ/酷奇.js"
-    },
-  {
-    "key": "drpy_蜻蜓FM",
-    "name": "📻音频┃蜻蜓",
-    "type": 3,
-    "api": "https://agit.ai/qi169/kankan/raw/branch/master/libs/drpy2.min.js",
-    "ext": "https://notabug.org/qizhen15800/My9394/raw/master/js/.蜻蜓FM.js"
-  },
-  {
-    "key": "drpy_兔小贝",
-    "name": "🛀儿童┃兔小贝",
-    "type": 3,
-    "api": "https://agit.ai/qi169/kankan/raw/branch/master/libs/drpy2.min.js",
-    "ext": "https://gitee.com/qizhen169xt/cool_white/raw/master/videos-tool/js/兔小贝.js"
-  },
-  {
-    "key": "drpy_忙易",
-    "name": "📽️影像┃网易",
-    "type": 3,
-    "api": "https://notabug.org/qizhen15800/My9394/raw/master/js/lib/drpy2.min.js",
-    "ext": "https://notabug.org/qizhen15800/My9394/raw/master/js/ac163.js"
-  },
-  {
-    "key": "drpy_8号",
-    "name": "📛影视┃8号",
-    "type": 3,
-    "api": "https://agit.ai/qi169/kankan/raw/branch/master/libs/drpy2.min.js",
-    "ext": "https://agit.ai/qi169/kankan/raw/branch/master/js2/8%e5%8f%b7.js"
-  },
-  {
-    "key": "XYQH_奇优",
-    "name": "🏇影视┃奇优",
-    "type": 3,
-    "api": "csp_XYQHiker",
-    "searchable": 1,
-    "quickSearch": 1,
-    "filterable": 1,
-    "changeable": 0,
-    "ext": "https://notabug.org/qizhen15800/My9394/raw/master/XYQHiker/奇优.js"
-  },
-  {
-    "key": "drpy_奇优",
-    "name": "🏇影视┃奇优",
-    "type": 3,
-    "api": "https://agit.ai/qi169/kankan/raw/branch/master/libs/drpy2.min.js",
-    "ext": "https://agit.ai/qi169/kankan/raw/branch/master/js2/1e6e.js"
-  },
-  {
-    "key": "drpy_很卡",
-    "name": "🎯影视┃很卡",
-    "type": 3,
-    "api": "https://agit.ai/qi169/kankan/raw/branch/master/libs/drpy2.min.js",
-    "ext": "https://agit.ai/qi169/kankan/raw/branch/master/js2/zbkk.js"
-  },
-  {
-    "key": "drpy_007",
-    "name": "🛃影视┃007",
-    "type": 3,
-    "api": "https://agit.ai/qi169/kankan/raw/branch/master/libs/drpy2.min.js",
-    "ext": "https://agit.ai/qi169/kankan/raw/branch/master/js2/007.js"
-  },
-  {
-    "key": "Bili_健身",
-    "name": "🅱️哔哔┃健身",
-    "type": 3,
-    "api": "csp_Bili",
-    "searchable": 1,
-    "quickSearch": 0,
-    "filterable": 1,
-    "ext": "https://notabug.org/qizhen15800/My9394/raw/master/json/哔哩合集T2.php"
-  },
-  {
-    "key": "Bili_合集",
-    "name": "🅱️哔哔┃合集",
-    "type": 3,
-    "api": "csp_Bili",
-    "searchable": 1,
-    "quickSearch": 0,
-    "filterable": 1,
-    "ext": "https://notabug.org/qizhen15800/My9394/raw/master/json/演唱会.php"
-  },
-  {
-    "key": "Bili_乐园",
-    "name": "🅱️教育┃乐园",
-    "type": 3,
-    "api": "csp_Bili",
-    "searchable": 1,
-    "quickSearch": 0,
-    "filterable": 1,
-    "ext": "https://notabug.org/qizhen15800/My9394/raw/master/学习园地.json"
-  },
-  {
-    "key": "Bili_歌舞",
-    "name": "🅱️哔哔┃歌舞",
-    "type": 3,
-    "api": "csp_Bili",
-    "searchable": 0,
-    "quickSearch": 0,
-    "filterable": 1,
-    "ext": "https://gitee.com/qizhen169xt/cool_white/raw/master/videos-tool/json/舞蹈.json"
-  },
-  {
-    "key": "Bili_贵姓",
-    "name": "🅱️哔哔小姐姐",
-    "type": 3,
-    "api": "csp_Bili",
-    "searchable": 0,
-    "quickSearch": 0,
-    "filterable": 1,
-    "ext": "https://gitee.com/qizhen169xt/cool_white/raw/master/videos-tool/json/小姐姐.json"
-  },
-  {
-    "key": "Bili_车模",
-    "name": "🅱️哔哔┃车模",
-    "type": 3,
-    "api": "csp_Bili",
-    "searchable": 0,
-    "quickSearch": 0,
-    "filterable": 1,
-    "ext": "https://gitee.com/qizhen169xt/cool_white/raw/master/videos-tool/json/车模.json"
-  },
-  {
-    "key": "drpy_拉雅",
-    "name": "🎧音频┃喜马",
-    "type": 3,
-    "api": "https://agit.ai/qi169/kankan/raw/branch/master/libs/drpy2.min.js",
-    "ext": "https://notabug.org/qizhen15800/My9394/raw/master/js/xima.js"
-  },
-  {
-    "key": "APP_兴浪",
-    "name": "❌勿相信广告",
-    "type": 1,
-    "api": "https://api.xinlangapi.com/xinlangapi.php/provide/vod/from/xlm3u8/?ac=list",
-    "searchable": 1,
-    "quickSearch": 1,
-    "filterable": 1,
-    "categories": ["大陆剧", "港澳剧", "台湾剧", "动漫", "动作片", "爱情片", "科幻片", "战争片", "剧情片", "恐怖片", "喜剧片", "欧美剧", "动漫电影", "韩剧", "日剧", "泰剧"]
-  },
-  {
-    "key": "XPath_起鹅",
-    "name": "🐧起鹅┃直播",
-    "type": 3,
-    "api": "csp_XPath",
-    "searchable": 0,
-    "quickSearch": 0,
-    "filterable": 0,
-    "ext": "https://notabug.org/qizhen15800/My9394/raw/master/xpath/起鹅直播.json"
-  },
-  {
-    "key": "XPath_JRS",
-    "name": "⚽体育┃JRS",
-    "type": 3,
-    "api": "csp_XPath",
-    "searchable": 0,
-    "quickSearch": 0,
-    "filterable": 0,
-    "ext": "https://notabug.org/qizhen15800/My9394/raw/master/xpath/JRS赛事.json"
-  },
-  {
-    "key": "drpy_88",
-    "name": "🏀体育┃88",
-    "type": 3,
-    "api": "https://notabug.org/qizhen15800/My9394/raw/master/js/lib/drpy2.1.min.js",
-    "ext": "https://notabug.org/qizhen15800/My9394/raw/master/js/88看球.js"
-  },
-  {
-    "key": "csp_AList",
-    "name": "💾网盘┃AList",
-    "type": 3,
-    "api": "csp_AList",
-    "playerType": 1,
-    "searchable": 0,
-    "quickSearch": 0,
-    "filterable": 0,
-    "ext": "https://ghproxy.com/https://raw.githubusercontent.com/FongMi/CatVodSpider/main/json/alist.json"
-  },
-  {
-    "key": "csp_UpYun",
-    "name": "🆙搜索┃UP云",
-    "type": 3,
-    "api": "csp_UpYun",
-    "playerType": 1,
-    "searchable": 1,
-    "quickSearch": 1,
-    "filterable": 0,
-    "ext": "https://agit.ai/qi169/kankan/raw/branch/master/ali/token.txt"
-  },
-  {
-    "key": "csp_PanSou",
-    "name": "📀搜索┃盘搜",
-    "type": 3,
-    "api": "csp_PanSou",
-    "playerType": 1,
-    "searchable": 1,
-    "quickSearch": 1,
-    "filterable": 0,
-    "ext": "https://agit.ai/qi169/kankan/raw/branch/master/ali/token.txt"
-  },
-  {
-    "key": "csp_YiSo",
-    "name": "🆎搜索┃易搜",
-    "type": 3,
-    "api": "csp_YiSo",
-    "playerType": 1,
-    "searchable": 1,
-    "quickSearch": 1,
-    "filterable": 0,
-    "ext": "https://agit.ai/qi169/kankan/raw/branch/master/ali/token.txt"
-  },
-  {
-    "key": "XYQB_88",
-    "name": "️⚽球赛┃88",
-    "type": 3,
-    "api": "csp_XYQBiu",
-    "searchable": 1,
-    "quickSearch": 1,
-    "filterable": 1,
-    "ext": "https://notabug.org/qizhen15800/My9394/raw/master/XYQBiu/88kq.js",
-    "jar": ""
-  },
-  {
-    "key": "紙條yan画",
-    "name": "🎦紙條┃原画",
-    "type": 3,
-    "api": "csp_Paper",
-    "searchable": 1,
-    "playerType": 1,
-    "filterable": 1,
-    "changeable": 1,
-    "ext": "https://agit.ai/qi169/kankan/raw/branch/master/ali/token.txt",
-    "jar": "https://gh-proxy.com/https://raw.githubusercontent.com/FongMi/CatVodSpider/main/jar/custom_spider.jar"
-  },
-  {
-    "key": "XYQH_鲨鱼",
-    "name": "🦈影视┃鲨鱼",
-    "type": 3,
-    "api": "csp_XYQHiker",
-    "searchable": 1,
-    "quickSearch": 1,
-    "filterable": 0,
-    "ext": "https://notabug.org/qizhen15800/My9394/raw/master/XYQHiker/m4410.js"
-  },
-  {
-    "key": "zjt4_4K",
-    "name": "🌺影视┃4有K",
-    "type": "4",
-    "api": "https://t4.t48.repl.co/zdytv",
-    "searchable": 1,
-    "quickSearch": 1,
-    "filterable": 1,
-    "changeable": 1
-  },
-  {
-    "key": "drpy_DJ",
-    "name": "🎧DJ┃摇摆吧",
-    "type": 3,
-    "playerType": 2 ,
-    "api": "https://agit.ai/qi169/kankan/raw/branch/master/libs/drpy2.min.js",
-    "ext": "https://notabug.org/qizhen15800/My9394/raw/master/js/DJ音乐.js"
-  },
-  {
-    "key":"转播_自嗨1",
-    "name":"🎵音乐┃视频",
-    "type":4,
-    "api":"http://120.53.102.254/live?url=https://notabug.org/qizhen15800/My9394/raw/master/live/DIY.txt",
-    "searchable":1,
-    "quickSearch":1,
-    "filterable":1
-  },
-  {
-    "key": "csp_LocalFile",
-    "name": "💻本地视频",
-    "type": 3,
-    "api": "csp_LocalFile",
-    "searchable": 0,
-    "quickSearch": 0,
-    "filterable": 0,
-    "type_flag": 0
-  },
-  {
-    "key": "Sp_推送",
-    "name": "🍭手机┃推送",
-    "type": 3,
-    "api": "csp_PushAgent",
-    "searchable": 0,
-    "quickSearch": 0,
-    "filterable": 0,
-    "ext": "https://notabug.org/qizhen15800/My9394/raw/master/token.txt"
-  }
+    //所有资源来自互联网，用于个人学习测试显示器与电池使用。未涉及商业盈利，如有侵权，请联系，会在第一时间删除谢谢.资源与内容禁止并谢绝未经本人许可下使用.未经本人许可下使用，需自行承担一切风险与责任.所有资源与内容，随时都有可能删除.未经本人许可下使用的，请慎重！慎重！慎重！//不良帅整理20300102新起点"sites": [
+        {
+            "key": "drpy_农民",
+            "name": "⭕影视┃农民",
+            "type": 3,
+            "api": "https://agit.ai/qi169/kankan/raw/branch/master/libs/drpy2.min.js",
+            "ext": "https://agit.ai/qi169/kankan/raw/branch/master/js2/农民.js"
+        },
+        {
+            "key": "drpy_豆辩",
+            "name": "🏘️影视┃推荐",
+            "type": 3,
+            "api": "https://agit.ai/qi169/kankan/raw/branch/master/libs/drpy2.min.js",
+            "ext": "https://notabug.org/qizhen15800/My9394/raw/master/js/豆瓣.js"
+        },
+        {
+            "key": "drpy_狗狗",
+            "name": "🐶影视┃狗狗",
+            "type": 3,
+            "playerType": 2,
+            "api": "https://notabug.org/qizhen15800/My9394/raw/master/js/lib/drpy.min.js",
+            "ext": "https://notabug.org/qizhen15800/My9394/raw/master/js/菜狗.js"
+        },
+        {
+            "key": "csp_Kunyu77",
+            "name": " 👒影视┃七七",
+            "type": 3,
+            "api": "csp_Kunyu77",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1
+        },
+        {
+            "key": "csp_LiteApple",
+            "name": "🍎影视┃苹果",
+            "type": 3,
+            "api": "csp_LiteApple",
+            "playerType": 1,
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1
+        },
+        {
+            "key": "T4-Zdytv",
+            "name": "影视┃4有K",
+            "type": 4,
+            "api": "http://81.68.89.191:16888/Php/zdytv.php",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "changeable": 0
+        },
+        {
+            "key": "csp_kuaikan",
+            "name": "👀影视┃快看",
+            "type": 3,
+            "api": "csp_Kuaikan",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1
+        },
+        {
+            "key": "csp_Czsapp",
+            "name": "🏭影视┃厂长",
+            "type": 3,
+            "api": "csp_Czsapp",
+            "playerType": 2,
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1
+        },
+        {
+            "key": "csp_DiDuan",
+            "name": "🛂影视┃低端",
+            "type": 3,
+            "api": "csp_Ddys",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 0
+        },
+        {
+            "key": "drpy_饭团",
+            "name": "🍝影视┃饭团",
+            "type": 3,
+            "playerType": 2,
+            "api": "https://agit.ai/qi169/kankan/raw/branch/master/libs/drpy2.min.js",
+            "ext": "https://notabug.org/qizhen15800/My9394/raw/master/js/fantuan.js"
+        },
+        {
+            "key": "drpy_LIBV",
+            "name": "🍩影视┃利奥",
+            "type": 3,
+            "api": "https://agit.ai/qi169/kankan/raw/branch/master/libs/drpy2.min.js",
+            "ext": "https://notabug.org/qizhen15800/My9394/raw/master/js/LIBVIO.js"
+        },
+        {
+            "key": "XYQH_盒子",
+            "name": "🎁影视┃盒子",
+            "type": 3,
+            "api": "csp_XYQHiker",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "ext": "https://notabug.org/qizhen15800/My9394/raw/master/XYQHiker/盒子.js"
+        },
+        {
+            "key": "XYQB_酷客",
+            "name": "🏄影视┃酷酷",
+            "type": 3,
+            "api": "csp_XYQBiu",
+            "playerType": 2,
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "ext": "https://notabug.org/qizhen15800/My9394/raw/master/XYQBiu/酷客.js"
+        },
+        {
+            "key": "drpy_骚火",
+            "name": "🔥影视┃骚火",
+            "type": 3,
+            "api": "https://notabug.org/qizhen15800/My9394/raw/master/js/lib/drpy2.min.js",
+            "ext": "https://notabug.org/qizhen15800/My9394/raw/master/js/骚火.js"
+        },
+        {
+            "key": "XYQH_野荷塘",
+            "name": "🏝影视┃荷塘",
+            "type": 3,
+            "api": "csp_XYQHiker",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "changeable": 0,
+            "ext": "https://notabug.org/qizhen15800/My9394/raw/master/XYQHiker/野荷塘.js"
+        },
+        {
+            "key": "drpy_天空",
+            "name": "🛰️影视┃天空",
+            "type": 3,
+            "api": "https://agit.ai/qi169/kankan/raw/branch/master/libs/drpy2.min.js",
+            "ext": "https://notabug.org/qizhen15800/My9394/raw/master/js/天空影视.js"
+        },
+        {
+            "key": "XYQH_布雷",
+            "name": "⚡影视┃布雷",
+            "type": 3,
+            "api": "csp_XYQHiker",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "changeable": 0,
+            "ext": "https://notabug.org/qizhen15800/My9394/raw/master/XYQHiker/布雷.js"
+        },
+        {
+            "key": "XYQH_红领巾",
+            "name": "🎀影视┃领巾",
+            "type": 3,
+            "api": "csp_XYQHiker",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "changeable": 0,
+            "ext": "https://notabug.org/qizhen15800/My9394/raw/master/XYQHiker/领巾.js"
+        },
+        {
+            "key": "XYQB_石榴",
+            "name": "🍈影视┃石榴",
+            "type": 3,
+            "api": "csp_XYQBiu",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "ext": "https://notabug.org/qizhen15800/My9394/raw/master/XYQBiu/石榴.js"
+        },
+        {
+            "key": "XYQB_骚火vip",
+            "name": "🔥影视┃骚火",
+            "type": 3,
+            "api": "csp_XYQBiu",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "changeable": 0,
+            "ext": "https://notabug.org/qizhen15800/My9394/raw/master/XYQBiu/骚火VIP.js"
+        },
+        {
+            "key": "XYQB_黑科",
+            "name": "💣影视┃黑科",
+            "type": 3,
+            "api": "csp_XYQBiu",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "changeable": 0,
+            "ext": "https://notabug.org/qizhen15800/My9394/raw/master/XYQBiu/黑料.js"
+        },
+        {
+            "key": "XYQB_神马",
+            "name": "🐴影视┃神马",
+            "type": 3,
+            "api": "csp_XYQBiu",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "changeable": 0,
+            "ext": "https://notabug.org/qizhen15800/My9394/raw/master/XYQBiu/神马.js"
+        },
+        {
+            "key": "XYQB_饭团",
+            "name": "🍙影视┃饭团",
+            "type": 3,
+            "api": "csp_XYQHiker",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "changeable": 0,
+            "ext": "https://notabug.org/qizhen15800/My9394/raw/master/XYQBiu/饭团.js"
+        },
+        {
+            "key": "玩家点播",
+            "name": "🔁电视┃点播等待……",
+            "type": 3,
+            "playerType": 1,
+            "api": "https://notabug.org/qizhen15800/My9394/raw/master/js/lib/直播转点播.js",
+            "ext": "少儿动漫剧集$https://notabug.org/qizhen15800/My9394/raw/master/live/少儿动漫.txt#歌曲mv$https://notabug.org/qizhen15800/My9394/raw/master/live/歌曲mv.txt#动物世界$https://notabug.org/qizhen15800/My9394/raw/master/live/动物世界.txt#荒野求生$https://notabug.org/qizhen15800/My9394/raw/master/live/荒野求生.txt#女团太妍$https://notabug.org/qizhen15800/My9394/raw/master/live/女团太妍.txt#戏曲$https://notabug.org/qizhen15800/My9394/raw/master/live/戏曲.txt#小品$https://notabug.org/qizhen15800/My9394/raw/master/live/小品.txt#三年之约$https://notabug.org/qizhen15800/My9394/raw/master/live/三年之约.txt&&&https://notabug.org/qizhen15800/My9394/raw/master/live/不良帅.png"
+        },
+        {
+            "key": "玩家直播",
+            "name": "🔄电视┃直播等待……",
+            "type": 3,
+            "playerType": 1,
+            "api": "https://agit.ai/lengniuge/js/raw/branch/master/直播转点播.js",
+            "ext": "cctvipv6$https://notabug.org/qizhen15800/My9394/raw/master/live/cctv.txt#地方台ipv6$https://notabug.org/qizhen15800/My9394/raw/master/live/卫视地方台.txt#影视$https://notabug.org/qizhen15800/My9394/raw/master/live/影视.txt#科教$https://notabug.org/qizhen15800/My9394/raw/master/live/科教.txt#体育$https://notabug.org/qizhen15800/My9394/raw/master/live/体育.txt&&&https://notabug.org/qizhen15800/My9394/raw/master/live/不良帅.png"
+        },
+        {
+            "key": "drpy_神马",
+            "name": "🐴影视┃神马",
+            "type": 3,
+            "api": "https://agit.ai/qi169/myklok/raw/branch/master/libs/drpy.min.js",
+            "ext": "https://notabug.org/qizhen15800/My9394/raw/master/js/神马影视.js"
+        },
+        {
+            "key": "drpy_视觉",
+            "name": "🔭影视┃视觉",
+            "type": 3,
+            "api": "https://agit.ai/qi169/myklok/raw/branch/master/libs/drpy.min.js",
+            "ext": "https://notabug.org/qizhen15800/My9394/raw/master/js/视觉.js"
+        },
+        {
+            "key": "drpy_鸭飞",
+            "name": "🦆影视┃鸭飞",
+            "type": 3,
+            "api": "https://agit.ai/qi169/myklok/raw/branch/master/libs/drpy.min.js",
+            "ext": "https://notabug.org/qizhen15800/My9394/raw/master/js/鸭奈飞.js"
+        },
+        {
+            "key": "XYQH_启蒙",
+            "name": "👪儿童┃启蒙",
+            "type": 3,
+            "api": "csp_XYQHiker",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 0,
+            "changeable": 0,
+            "ext": "https://notabug.org/qizhen15800/My9394/raw/master/XYQHiker/兔小贝启蒙.js"
+        },
+        {
+            "key": "XYQH_儿歌",
+            "name": "👪儿童┃儿歌",
+            "type": 3,
+            "api": "csp_XYQHiker",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 0,
+            "changeable": 0,
+            "ext": "https://notabug.org/qizhen15800/My9394/raw/master/XYQHiker/兔小贝儿歌.js"
+        },
+        {
+            "key": "zyml_量子",
+            "name": "影视┃量子",
+            "type": 1,
+            "api": "https://cj.lziapi.com/api.php/provide/vod/",
+            "playUrl": "",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "categories": [
+                "国产剧",
+                "欧美剧",
+                "香港剧",
+                "韩国剧",
+                "台湾剧",
+                "日本剧",
+                "海外剧",
+                "泰国剧",
+                "国产动漫",
+                "动作片",
+                "喜剧片",
+                "科幻片",
+                "爱情片",
+                "恐怖片",
+                "剧情片",
+                "战争片",
+                "记录片",
+                "日韩动漫",
+                "欧美动漫",
+                "港台动漫",
+                "海外动漫",
+                "大陆综艺",
+                "港台综艺",
+                "日韩综艺",
+                "欧美综艺"
+            ]
+        },
+        {
+            "key": "zyxml_非凡",
+            "name": "影视┃非凡",
+            "type": 1,
+            "api": "http://www.ffzy.tv/api.php/provide/vod/",
+            "playUrl": "",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "categories": [
+                "国产剧",
+                "欧美剧",
+                "香港剧",
+                "韩国剧",
+                "台湾剧",
+                "日本剧",
+                "动作片",
+                "喜剧片",
+                "科幻片",
+                "恐怖片",
+                "爱情片",
+                "剧情片",
+                "战争片",
+                "记录片",
+                "海外剧",
+                "泰国剧",
+                "国产动漫",
+                "日韩动漫",
+                "欧美动漫",
+                "港台动漫",
+                "海外动漫",
+                "大陆综艺",
+                "港台综艺",
+                "日韩综艺",
+                "欧美综艺"
+            ]
+        },
+        {
+            "key": "drpy_诺溪",
+            "name": "🍥影视┃诺溪",
+            "type": 3,
+            "api": "https://notabug.org/qizhen15800/My9394/raw/master/js/lib/drpy2.min.js",
+            "ext": "https://notabug.org/qizhen15800/My9394/raw/master/js/诺讯.js"
+        },
+        {
+            "key": "drpy_大师兄",
+            "name": "👽影视┃师兄",
+            "type": 3,
+            "api": "https://notabug.org/qizhen15800/My9394/raw/master/js/lib/drpy2.min.js",
+            "ext": "https://notabug.org/qizhen15800/My9394/raw/master/js/大师兄.js"
+        },
+        {
+            "key": "XYQH_白嫖联盟",
+            "name": "🥨影视┃联盟",
+            "type": 3,
+            "api": "csp_XYQHiker",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "changeable": 0,
+            "ext": "https://notabug.org/qizhen15800/My9394/raw/master/XYQHiker/联盟.js"
+        },
+        {
+            "key": "drpy_爱看",
+            "name": "👾影视┃爱看",
+            "type": 3,
+            "playerType": 2,
+            "api": "https://notabug.org/qizhen15800/My9394/raw/master/js/lib/drpy2.min.js",
+            "ext": "https://notabug.org/qizhen15800/My9394/raw/master/js/爱看.js"
+        },
+        {
+            "key": "XYQH_皮鸭",
+            "name": "🦆影视┃皮鸭",
+            "type": 3,
+            "api": "csp_XYQHiker",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 0,
+            "changeable": 0,
+            "ext": "https://notabug.org/qizhen15800/My9394/raw/master/XYQHiker/皮皮鸭.js"
+        },
+        {
+            "key": "XYQH_星辰",
+            "name": "🎇影视┃星辰",
+            "type": 3,
+            "api": "csp_XYQHiker",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "ext": "https://notabug.org/qizhen15800/My9394/raw/master/XYQHiker/星辰.js"
+        },
+        {
+            "key": "XYQH_很卡",
+            "name": "🆖影视┃很卡",
+            "type": 3,
+            "api": "csp_XYQHiker",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 0,
+            "changeable": 0,
+            "ext": "https://notabug.org/qizhen15800/My9394/raw/master/XYQHiker/很卡.js"
+        },
+        {
+            "key": "zy_乱舞7",
+            "name": "🔆影视┃明明",
+            "type": 1,
+            "api": "https://ys.md214.cn/api.php/provide/vod/",
+            "m3u8ads": "hd.youyhn.com",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "categories": [
+                "大陆剧",
+                "电影",
+                "连续剧",
+                "综艺",
+                "动漫",
+                "直播"
+            ]
+        },
+        {
+            "key": "drpy_小Q",
+            "name": "🐧影视┃小Q",
+            "type": 3,
+            "playerType": 2,
+            "api": "https://notabug.org/qizhen15800/My9394/raw/master/js/lib/drpy.min.js",
+            "ext": "https://notabug.org/qizhen15800/My9394/raw/master/js/腾云.js"
+        },
+        {
+            "key": "drpy_忙果",
+            "name": "🍋影视┃忙果",
+            "type": 3,
+            "api": "https://notabug.org/qizhen15800/My9394/raw/master/js/lib/drpy.min.js",
+            "ext": "https://notabug.org/qizhen15800/My9394/raw/master/js/百忙无果.js"
+        },
+        {
+            "key": "drpy_U酷",
+            "name": "🆒影视┃U酷",
+            "type": 3,
+            "api": "https://notabug.org/qizhen15800/My9394/raw/master/js/lib/drpy.min.js",
+            "ext": "https://notabug.org/qizhen15800/My9394/raw/master/js/优酷.js"
+        },
+        {
+            "key": "drpy_假哔站",
+            "name": "🅱️影视┃哔站",
+            "type": 3,
+            "api": "https://notabug.org/qizhen15800/My9394/raw/master/js/lib/drpy2.min.js",
+            "ext": "https://notabug.org/qizhen15800/My9394/raw/master/js/哔站.js"
+        },
+        {
+            "key": "drpy_创艺",
+            "name": "🍥影视┃创艺",
+            "type": 3,
+            "api": "https://notabug.org/qizhen15800/My9394/raw/master/js/lib/drpy2.min.js",
+            "ext": "https://notabug.org/qizhen15800/My9394/raw/master/js/创艺.js"
+        },
+        {
+            "key": "XPath_独播库",
+            "name": " 🦄影视┃独播",
+            "type": 3,
+            "api": "csp_XPathMacFilter",
+            "playerType": 1,
+            "searchable": 1,
+            "filterable": 1,
+            "changeable": 1,
+            "ext": "https://notabug.org/qizhen15800/My9394/raw/master/xpath/独播库.js"
+        },
+        {
+            "key": "XYQH_独播库",
+            "name": "🦄影视┃独播",
+            "type": 3,
+            "api": "csp_XYQHiker",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "changeable": 0,
+            "ext": "https://notabug.org/qizhen15800/My9394/raw/master/XYQHiker/独播库.js"
+        },
+        {
+            "key": "XPath_8z",
+            "name": "3️⃣影视┃348",
+            "type": 3,
+            "api": "csp_XPathFilter",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "ext": "https://notabug.org/qizhen15800/My9394/raw/master/xpath/348.js"
+        },
+        {
+            "key": "drpy_爱妃",
+            "name": "🌹影视┃爱妃",
+            "type": 3,
+            "api": "https://agit.ai/qi169/kankan/raw/branch/master/libs/drpy2.min.js",
+            "ext": "https://notabug.org/qizhen15800/My9394/raw/master/js/艾菲影视.js"
+        },
+        {
+            "key": "纸条_普画",
+            "name": "📜纸条┃普画",
+            "type": 3,
+            "api": "csp_Paper",
+            "searchable": 1,
+            "playerType": 1,
+            "filterable": 1,
+            "changeable": 1,
+            "ext": "https://agit.ai/Yoursmile7/TVBox/raw/branch/master/tok.txt",
+            "jar": "https://framagit.org/m131499/qq16900/-/raw/main/xiaomfm.jar"
+        },
+        {
+            "key": "纸条_PU画",
+            "name": "📜纸条┃PU画",
+            "type": 3,
+            "api": "csp_Paper",
+            "searchable": 1,
+            "playerType": 1,
+            "filterable": 1,
+            "changeable": 1,
+            "ext": "https://notabug.org/qizhen15800/My9394/raw/master/alitoken/token.php"
+        },
+        {
+            "key": "纸条_4有k",
+            "name": "📜纸条┃4有k",
+            "type": 3,
+            "api": "csp_Paper",
+            "searchable": 1,
+            "playerType": 1,
+            "filterable": 1,
+            "changeable": 1,
+            "ext": "https://notabug.org/qizhen15800/My9394/raw/master/alitoken/token.php",
+            "jar": "https://notabug.org/qizhen15800/My9394/raw/master/jar/xiaomfm.jar"
+        },
+        {
+            "key": "纸条_4K",
+            "name": "📜纸条┃4K",
+            "type": 3,
+            "api": "csp_Paper",
+            "searchable": 1,
+            "playerType": 1,
+            "filterable": 1,
+            "changeable": 1,
+            "ext": "https://agit.ai/Yoursmile7/TVBox/raw/branch/master/tok.txt",
+            "jar": "https://notabug.org/qizhen15800/My9394/raw/master/jar/xiaomfm.jar"
+        },
+        {
+            "key": "找资源",
+            "name": "🔍搜索┃找资源",
+            "type": 3,
+            "api": "csp_Zhaozy",
+            "playerType": 1,
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "ext": "https://notabug.org/qizhen15800/My9394/raw/master/alitoken/token.php$$$yingshi$$$abcd1234"
+        },
+        {
+            "key": "XYQH_柠檬tv",
+            "name": "🎇电视┃柠檬",
+            "type": 3,
+            "api": "csp_XYQHiker",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "ext": "https://notabug.org/qizhen15800/My9394/raw/master/XYQHiker/柠檬2.js"
+        },
+        {
+            "key": "XYQH_有声小说",
+            "name": "🎧有声┃小说",
+            "type": 3,
+            "api": "csp_XYQHiker",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "ext": "https://notabug.org/qizhen15800/My9394/raw/master/XYQHiker/有声小说.js"
+        },
+        {
+            "key": "drpy_a8",
+            "name": "🎵MV┃A8",
+            "type": 3,
+            "api": "https://notabug.org/qizhen15800/My9394/raw/master/js/lib/drpy2.min.js",
+            "ext": "https://notabug.org/qizhen15800/My9394/raw/master/js/a8.js"
+        },
+        {
+            "key": "drpy_酷6",
+            "name": "📽️媒体┃酷6",
+            "type": 3,
+            "api": "https://notabug.org/qizhen15800/My9394/raw/master/js/lib/drpy2.min.js",
+            "ext": "https://notabug.org/qizhen15800/My9394/raw/master/js/ku6.js"
+        },
+        {
+            "key": "XYQH_呦呦Dj",
+            "name": "🎧DJ┃呦呦",
+            "type": 3,
+            "api": "csp_XYQHiker",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "ext": "https://notabug.org/qizhen15800/My9394/raw/master/XYQHiker/呦呦.js"
+        },
+        {
+            "key": "drpy_kugou",
+            "name": "🎵DJ┃酷狗",
+            "type": 3,
+            "api": "https://notabug.org/qizhen15800/My9394/raw/master/js/lib/drpy.min.js",
+            "ext": "https://notabug.org/qizhen15800/My9394/raw/master/js/kugou.js",
+            "playerType": "2"
+        },
+        {
+            "key": "XBPQ_酷奇",
+            "name": "🎵MV┃酷奇",
+            "type": 3,
+            "api": "csp_XBPQ",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "ext": "https://notabug.org/qizhen15800/My9394/raw/master/xBPQ/酷奇.js"
+        },
+        {
+            "key": "drpy_蜻蜓FM",
+            "name": "📻音频┃蜻蜓",
+            "type": 3,
+            "api": "https://agit.ai/qi169/kankan/raw/branch/master/libs/drpy2.min.js",
+            "ext": "https://notabug.org/qizhen15800/My9394/raw/master/js/.蜻蜓FM.js"
+        },
+        {
+            "key": "drpy_兔小贝",
+            "name": "🛀儿童┃兔小贝",
+            "type": 3,
+            "api": "https://agit.ai/qi169/kankan/raw/branch/master/libs/drpy2.min.js",
+            "ext": "https://gitee.com/qizhen169xt/cool_white/raw/master/videos-tool/js/兔小贝.js"
+        },
+        {
+            "key": "drpy_忙易",
+            "name": "📽️影像┃网易",
+            "type": 3,
+            "api": "https://notabug.org/qizhen15800/My9394/raw/master/js/lib/drpy2.min.js",
+            "ext": "https://notabug.org/qizhen15800/My9394/raw/master/js/ac163.js"
+        },
+        {
+            "key": "drpy_8号",
+            "name": "📛影视┃8号",
+            "type": 3,
+            "api": "https://agit.ai/qi169/kankan/raw/branch/master/libs/drpy2.min.js",
+            "ext": "https://agit.ai/qi169/kankan/raw/branch/master/js2/8%e5%8f%b7.js"
+        },
+        {
+            "key": "XYQH_奇优",
+            "name": "🏇影视┃奇优",
+            "type": 3,
+            "api": "csp_XYQHiker",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "changeable": 0,
+            "ext": "https://notabug.org/qizhen15800/My9394/raw/master/XYQHiker/奇优.js"
+        },
+        {
+            "key": "drpy_奇优",
+            "name": "🏇影视┃奇优",
+            "type": 3,
+            "api": "https://agit.ai/qi169/kankan/raw/branch/master/libs/drpy2.min.js",
+            "ext": "https://agit.ai/qi169/kankan/raw/branch/master/js2/1e6e.js"
+        },
+        {
+            "key": "drpy_很卡",
+            "name": "🎯影视┃很卡",
+            "type": 3,
+            "api": "https://agit.ai/qi169/kankan/raw/branch/master/libs/drpy2.min.js",
+            "ext": "https://agit.ai/qi169/kankan/raw/branch/master/js2/zbkk.js"
+        },
+        {
+            "key": "drpy_007",
+            "name": "🛃影视┃007",
+            "type": 3,
+            "api": "https://agit.ai/qi169/kankan/raw/branch/master/libs/drpy2.min.js",
+            "ext": "https://agit.ai/qi169/kankan/raw/branch/master/js2/007.js"
+        },
+        {
+            "key": "Bili_健身",
+            "name": "🅱️哔哔┃健身",
+            "type": 3,
+            "api": "csp_Bili",
+            "searchable": 1,
+            "quickSearch": 0,
+            "filterable": 1,
+            "ext": "https://notabug.org/qizhen15800/My9394/raw/master/json/哔哩合集T2.php"
+        },
+        {
+            "key": "Bili_合集",
+            "name": "🅱️哔哔┃合集",
+            "type": 3,
+            "api": "csp_Bili",
+            "searchable": 1,
+            "quickSearch": 0,
+            "filterable": 1,
+            "ext": "https://notabug.org/qizhen15800/My9394/raw/master/json/演唱会.php"
+        },
+        {
+            "key": "Bili_乐园",
+            "name": "🅱️教育┃乐园",
+            "type": 3,
+            "api": "csp_Bili",
+            "searchable": 1,
+            "quickSearch": 0,
+            "filterable": 1,
+            "ext": "https://notabug.org/qizhen15800/My9394/raw/master/学习园地.json"
+        },
+        {
+            "key": "Bili_歌舞",
+            "name": "🅱️哔哔┃歌舞",
+            "type": 3,
+            "api": "csp_Bili",
+            "searchable": 0,
+            "quickSearch": 0,
+            "filterable": 1,
+            "ext": "https://gitee.com/qizhen169xt/cool_white/raw/master/videos-tool/json/舞蹈.json"
+        },
+        {
+            "key": "Bili_贵姓",
+            "name": "🅱️哔哔小姐姐",
+            "type": 3,
+            "api": "csp_Bili",
+            "searchable": 0,
+            "quickSearch": 0,
+            "filterable": 1,
+            "ext": "https://gitee.com/qizhen169xt/cool_white/raw/master/videos-tool/json/小姐姐.json"
+        },
+        {
+            "key": "Bili_车模",
+            "name": "🅱️哔哔┃车模",
+            "type": 3,
+            "api": "csp_Bili",
+            "searchable": 0,
+            "quickSearch": 0,
+            "filterable": 1,
+            "ext": "https://gitee.com/qizhen169xt/cool_white/raw/master/videos-tool/json/车模.json"
+        },
+        {
+            "key": "drpy_拉雅",
+            "name": "🎧音频┃喜马",
+            "type": 3,
+            "api": "https://agit.ai/qi169/kankan/raw/branch/master/libs/drpy2.min.js",
+            "ext": "https://notabug.org/qizhen15800/My9394/raw/master/js/xima.js"
+        },
+        {
+            "key": "APP_兴浪",
+            "name": "❌勿相信广告",
+            "type": 1,
+            "api": "https://api.xinlangapi.com/xinlangapi.php/provide/vod/from/xlm3u8/?ac=list",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "categories": [
+                "大陆剧",
+                "港澳剧",
+                "台湾剧",
+                "动漫",
+                "动作片",
+                "爱情片",
+                "科幻片",
+                "战争片",
+                "剧情片",
+                "恐怖片",
+                "喜剧片",
+                "欧美剧",
+                "动漫电影",
+                "韩剧",
+                "日剧",
+                "泰剧"
+            ]
+        },
+        {
+            "key": "XPath_起鹅",
+            "name": "🐧起鹅┃直播",
+            "type": 3,
+            "api": "csp_XPath",
+            "searchable": 0,
+            "quickSearch": 0,
+            "filterable": 0,
+            "ext": "https://notabug.org/qizhen15800/My9394/raw/master/xpath/起鹅直播.json"
+        },
+        {
+            "key": "XPath_JRS",
+            "name": "⚽体育┃JRS",
+            "type": 3,
+            "api": "csp_XPath",
+            "searchable": 0,
+            "quickSearch": 0,
+            "filterable": 0,
+            "ext": "https://notabug.org/qizhen15800/My9394/raw/master/xpath/JRS赛事.json"
+        },
+        {
+            "key": "drpy_88",
+            "name": "🏀体育┃88",
+            "type": 3,
+            "api": "https://notabug.org/qizhen15800/My9394/raw/master/js/lib/drpy2.1.min.js",
+            "ext": "https://notabug.org/qizhen15800/My9394/raw/master/js/88看球.js"
+        },
+        {
+            "key": "csp_AList",
+            "name": "💾网盘┃AList",
+            "type": 3,
+            "api": "csp_AList",
+            "playerType": 1,
+            "searchable": 0,
+            "quickSearch": 0,
+            "filterable": 0,
+            "ext": "https://ghproxy.com/https://raw.githubusercontent.com/FongMi/CatVodSpider/main/json/alist.json"
+        },
+        {
+            "key": "csp_UpYun",
+            "name": "🆙搜索┃UP云",
+            "type": 3,
+            "api": "csp_UpYun",
+            "playerType": 1,
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 0,
+            "ext": "https://notabug.org/qizhen15800/My9394/raw/master/alitoken/token.php"
+        },
+        {
+            "key": "csp_PanSou",
+            "name": "📀搜索┃盘搜",
+            "type": 3,
+            "api": "csp_PanSou",
+            "playerType": 1,
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 0,
+            "ext": "https://notabug.org/qizhen15800/My9394/raw/master/alitoken/token.php"
+        },
+        {
+            "key": "csp_YiSo",
+            "name": "🆎搜索┃易搜",
+            "type": 3,
+            "api": "csp_YiSo",
+            "playerType": 1,
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 0,
+            "ext": "https://agit.ai/qi169/kankan/raw/branch/master/ali/token.txt"
+        },
+        {
+            "key": "XYQB_88",
+            "name": "️⚽球赛┃88",
+            "type": 3,
+            "api": "csp_XYQBiu",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "ext": "https://notabug.org/qizhen15800/My9394/raw/master/XYQBiu/88kq.js",
+            "jar": ""
+        },
+        {
+            "key": "紙條yan画",
+            "name": "🎦紙條┃原画",
+            "type": 3,
+            "api": "csp_Paper",
+            "searchable": 1,
+            "playerType": 1,
+            "filterable": 1,
+            "changeable": 1,
+            "ext": "https://agit.ai/qi169/kankan/raw/branch/master/ali/token.txt",
+            "jar": "https://gh-proxy.com/https://raw.githubusercontent.com/FongMi/CatVodSpider/main/jar/custom_spider.jar"
+        },
+        {
+            "key": "XYQH_鲨鱼",
+            "name": "🦈影视┃鲨鱼",
+            "type": 3,
+            "api": "csp_XYQHiker",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 0,
+            "ext": "https://notabug.org/qizhen15800/My9394/raw/master/XYQHiker/m4410.js"
+        },
+        {
+            "key": "zjt4_4K",
+            "name": "🌺影视┃4有K",
+            "type": "4",
+            "api": "https://t4.t48.repl.co/zdytv",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "changeable": 1
+        },
+        {
+            "key": "drpy_DJ",
+            "name": "🎧DJ┃摇摆吧",
+            "type": 3,
+            "playerType": 2,
+            "api": "https://agit.ai/qi169/kankan/raw/branch/master/libs/drpy2.min.js",
+            "ext": "https://notabug.org/qizhen15800/My9394/raw/master/js/DJ音乐.js"
+        },
+        {
+            "key": "转播_自嗨1",
+            "name": "🎵音乐┃视频",
+            "type": 4,
+            "api": "http://120.53.102.254/live?url=https://notabug.org/qizhen15800/My9394/raw/master/live/DIY.txt",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1
+        },
+        {
+            "key": "csp_LocalFile",
+            "name": "💻本地视频",
+            "type": 3,
+            "api": "csp_LocalFile",
+            "searchable": 0,
+            "quickSearch": 0,
+            "filterable": 0,
+            "type_flag": 0
+        },
+        {
+            "key": "Sp_推送",
+            "name": "🍭手机┃推送",
+            "type": 3,
+            "api": "csp_PushAgent",
+            "searchable": 0,
+            "quickSearch": 0,
+            "filterable": 0,
+            "ext": "https://notabug.org/qizhen15800/My9394/raw/master/alitoken/token.php"
+        }
     ],
+    
 "parses":[
 //{"name":"解吧","type":3,"url":"Demo"},
 //{"name":"点我吧","type":3,"url":"Web"},
