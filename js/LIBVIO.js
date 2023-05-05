@@ -1,11 +1,8 @@
-muban.首图2.二级.title = 'h1&&Text;.data:eq(0)&&Text'
-muban.首图2.二级.desc = '.data.hidden-xs&&Text;;;.data:eq(1)&&Text;.data:eq(4)&&Text'
-muban.首图2.二级.content = '.detail-content&&Text'
 var rule = {
 	title:'LIBVIO',
 	模板:'首图2',
-	// host:'https://libvio.fun',
-	host:'https://tv.libvio.cc',
+	host:'https://libvio.fun',
+	//host:'https://tv.libvio.cc',
 	// host:'https://libvio.me',
 	// url:'/type/fyclass-fypage.html',
 	// url:'/show/fyclassfyfilter.html',
