@@ -2,7 +2,7 @@ var rule = {
 	title:'LIBVIO',
 	模板:'首图2',
 	host:'https://libvio.fun',
-	//host:'https://tv.libvio.cc',
+	//host:'https://libvio.fun',
 	// host:'https://libvio.me',
 	// url:'/type/fyclass-fypage.html',
 	// url:'/show/fyclassfyfilter.html',
@@ -19,7 +19,7 @@ var rule = {
 	},
 	headers:{//网站的请求头,完整支持所有的,常带ua和cookies
 		'User-Agent':'MOBILE_UA',
-		'Referer':'https://tv.libvio.cc/'
+		'Referer':'https://libvio.fun/'
 	},
 	// class_parse:'.stui-header__menu li:gt(0):lt(7);a&&Text;a&&href;/(\\d+).html',
 	class_parse:'.stui-header__menu li;a&&Text;a&&href;/.*_(\\d+).html',
