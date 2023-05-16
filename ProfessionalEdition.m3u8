@@ -451,8 +451,8 @@
 ],
 "flags": ["youku","qq","iqiyi","qiyi","letv","sohu","tudou","pptv","mgtv","wasu","bilibili","renrenmi","优酷","芒果", "腾讯", "爱奇艺", "奇艺", "ltnb", "rx", "CL4K", "xfyun", "wuduzy"],
 //自定义jar
-"spider":"./xl0516.jar",
-//"spider":"https://notabug.org/qizhen15800/My9394/raw/master/jar/xl.txt",
+//"spider":"./xl0516.jar",
+"spider":"https://notabug.org/qizhen15800/My9394/raw/master/jar/xldjq0516.jar",
 
 //壁纸
 "wallpaper": "https://tool.weetai.cn/api",
