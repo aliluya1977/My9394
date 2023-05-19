@@ -1,8 +1,8 @@
 var rule = {
 	title:'天空影视',
 	模板:'mxpro',
-	// host:'https://tkznp.com',
-	host:'https://www.tkys6.com',
+	host:'https://tkznp.com',
+	// host:'https://www.tkys6.com',
 	// url: '/vodshow/id/fyclass/page/fypage.html',
 	url:'/vodshow/id/fyfilter.html',
 	filterable:1,//是否启用分类筛选,
