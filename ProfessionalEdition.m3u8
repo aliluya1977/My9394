@@ -2,11 +2,12 @@
 	//所有资源来自互联网，用于个人学习测试显示器与电池使用。未涉及商业盈利，如有侵权，请联系，会在第一时间删除谢谢.资源与内容禁止并谢绝未经本人许可下使用.未经本人许可下使用，需自行承担一切风险与责任.所有资源与内容，随时都有可能删除.未经本人许可下使用的，请慎重！慎重！慎重！
 	//不良帅
 	"sites": [{
-			"key": "XBPQ_77",
-			"name": " 👒七七┃影视",
+			"key": "drpy_77",
+			"name": "👒77┃影视",
 			"type": 3,
-			"api": "csp_XBPQ",
-			"ext": "https://notabug.org/qizhen15800/My9394/raw/master/xBPQ/77.json"
+			"playerType": 2,
+			"api": "https://notabug.org/qizhen15800/My9394/raw/master/drpy2.min.js",
+			"ext": "https://notabug.org/qizhen15800/My9394/raw/master/js/77.js"
 		},
 		{
 			"key": "drpy_豆辩",
