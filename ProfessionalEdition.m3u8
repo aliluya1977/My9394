@@ -20,7 +20,7 @@
 		},
 		{
 			"key": "drpy_直播转点播",
-			"name": "📺电视 | 直播┃测试",
+			"name": "📺电视┃直播┃测试",
 			"type": 3,
 			"api": "https://gitee.com/zhen169/ikdd/raw/master/qb.js",
 			"changeable": 0,
@@ -47,6 +47,13 @@
 			"playerType": 2,
 			"api": "csp_Czsapp",
 			"ext": "https://czzy.art"
+		},
+		{
+			"key": "歌手_MV",
+			"name": "🎵歌手┃MV┃测试",
+			"type": 1,
+			"api": "https://tvbox-mv--leosam2048.repl.co/mv/vod",
+			"searchable": 0
 		},
 		{
 			"key": "csp_测试结束",
