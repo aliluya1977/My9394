@@ -38,7 +38,16 @@
 			"name": "📻电台┃之声┃测试",
 			"type": 3,
 			"api": "https://gitee.com/zhen169/ikdd/raw/master/直播转点播.js",
-			"ext": "http://shuyuan.miaogongzi.net/shuyuan/1688553723.json"
+			"ext": "http://shuyuan.miaogongzi.net/shuyuan/1688703636.json"
+		},
+		{
+			"key": "csp_Czsapp",
+			"name": "🏭厂长┃影视",
+			"type": 3,
+			"changeable":1,
+			"playerType": 2,
+			"api": "csp_Czsapp",
+			"ext": "https://czzy.art"
 		},
 		{
 			"key": "Bili_聚合",
