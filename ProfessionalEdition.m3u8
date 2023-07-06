@@ -1,7 +1,12 @@
 /*资源源于网络
 方便自己学习交流自用
 仅供学习参考
-不得商业用途用
+ ⛔不得违法与商业用途 ⛔
+ ⛔不得违法与商业用途 ⛔
+ ⛔不得违法与商业用途 ⛔
+ ⛔请各位大佬手下留情 勿传播本测试接口 谢谢⛔
+ ⛔请各位大佬手下留情 勿传播本测试接口 谢谢⛔
+ ⛔请各位大佬手下留情 勿传播本测试接口 谢谢⛔
 如有侵权请联系
 会在第一时间删除谢谢
 资源与内容禁止并谢绝未经本人许可下使用
@@ -14,17 +19,26 @@
 {
 	"sites": [{
 			"key": "csp_Kunyu77",
-			"name": "🎰七七┃影视┃测试",
+			"name": "🎰七七┃不得违法用途┃测试",
 			"type": 3,
+			"changeable": 1,
 			"api": "csp_Kunyu77"
 		},
 		{
 			"key": "drpy_直播转点播",
 			"name": "📺电视┃直播┃测试",
 			"type": 3,
-			"api": "https://gitee.com/zhen169/ikdd/raw/master/qb.js",
-			"changeable": 0,
-			"ext": "https://agit.ai/qi169/kankan/raw/branch/master/qbUltimate.json"
+			"playerType": 1,
+			"api": "https://gitee.com/zhen169/ikdd/raw/master/直播转点播.js",
+			//"api": "https://gitee.com/zhen169/ikdd/raw/master/qb.js",
+			"ext": "https://gitee.com/zhen169/ikdd/raw/master/电视直播.json"
+		},
+		{
+			"key": "直播转点播",
+			"name": "📻电台┃之声┃测试",
+			"type": 3,
+			"api": "https://gitee.com/zhen169/ikdd/raw/master/直播转点播.js",
+			"ext": "http://shuyuan.miaogongzi.net/shuyuan/1688553723.json"
 		},
 		{
 			"key": "Bili_聚合",
@@ -35,9 +49,18 @@
 			"ext": "https://agit.ai/qi169/kankan/raw/branch/master/BBUltimate.json"
 		},
 		{
+			"key": "apv2_爱迪",
+			"name": "  🆔爱迪┃影视┃测试",
+			"type": 3,
+			"changeable":1,
+			"api": "csp_AppYsV2",
+			"ext": "https://aidiapp.xyz/xgapp.php/v3/"
+		},
+		{
 			"key": "XYQH_动漫巴士",
 			"name": "🤖动漫┃巴士┃测试",
 			"type": 3,
+			"changeable": 1,
 			"playerType": 1,
 			"api": "csp_XYQHiker",
 			"ext": {
@@ -80,21 +103,138 @@
 				"是否反转选集序列": "0",
 				"选集链接加前缀": "https://dm84.tv",
 				"分析MacPlayer": "2"
+
+			}
+		},
+		{
+			"key": "drpy_哔哩影视",
+			"name": "👨‍💻哔哩┃影视┃测试",
+			"type": 3,
+			"api": "https://gitee.com/zhen169/ikdd/raw/master/drpy2.min.js",
+			"ext": "https://gitee.com/zhen169/ikdd/raw/master/js/哔哩影视.js"
+		},
+		{
+			"key": "XYQH_农民",
+			"name": "🌾农民┃影视┃测试",
+			"type": 3,
+			"changeable": 1,
+			"playerType": 1,
+			"api": "csp_XYQHiker",
+			"ext": {
+				"分类链接": "https://www.nmddd.com/vod-list-id-{cateId}-pg-{catePg}-order--by-{by}-class--year-{year}-letter--area-{area}-lang-.html",
+				"分类名称": "电影&电视剧&综艺&动漫",
+				"分类名称替换词": "1&2&3&4",
+				"筛选数据": "ext",
+				"筛选子分类名称": "动作片&喜剧片&爱情片&科幻片&恐怖片&剧情片&战争片&惊悚片&奇幻片||国产剧&港台泰&日韩剧&欧美剧||空||动漫剧&动漫片",
+				"筛选子分类替换词": "5&6&7&8&9&10&11&16&17||12&13&14&15||空||18&19",
+				"筛选地区名称": "大陆&香港&台湾&美国&韩国&日本&泰国&新加坡&马来西亚&印度&英国&法国&加拿大&西班牙&俄罗斯&其它",
+				"分类列表数组规则": ".resize_list&&li",
+				"分类片单是否Jsoup写法": "1",
+				"分类片单标题": "a&&title",
+				"分类片单链接": "a&&href",
+				"分类片单图片": "img&&src",
+				"分类片单副标题": ".sBottom&&Text",
+				"分类片单链接加前缀": "https://www.nmddd.com",
+				"类型详情": ".type-title&&Text",
+				"年代详情": "body&&span:contains(年代：)&&Text!年代：",
+				"地区详情": "",
+				"演员详情": "body&&.desc_item:contains(主演:)&&Text!主演:",
+				"简介详情": ".detail-con&&p&&Text!简介:",
+				"搜索片单副标题": ".sDes,-1&&Text",
+				"搜索片单链接加前缀": "https://www.nmddd.com",
+				"搜索片单链接加后缀": "",
+				"线路列表数组规则": ".numlistBox&&.hd&&li",
+				"线路标题": "Text",
+				"播放列表数组规则": "body&&.numList",
+				"选集列表数组规则": "li",
+				"选集标题链接是否Jsoup写法": "1",
+				"选集标题": "a&&Text",
+				"选集链接": "a&&href",
+				"是否反转选集序列": "1",
+				"选集链接加前缀": "https://www.nmddd.com",
+				"选集链接加后缀": "",
+				"分析MacPlayer": "2",
+				"是否开启手动嗅探": "1",
+				"手动嗅探视频链接关键词": ".mp4#.m3u8#item/video#video_mp4",
+				"手动嗅探视频链接过滤词": ".html#=http"
 			}
 		},
 		{
 			"key": "csp_365",
 			"name": "🌎365┃解析┃测试",
 			"type": 3,
-			"api": "csp_SP360"
+			"changeable": 1,
+			"api": "https://gitee.com/zhen169/ikdd/raw/master/drpy2.min.js",
+			"ext": "http://shuyuan.miaogongzi.net/shuyuan/1688725188.json"
 		},
 		{
-			"key": "csp_Czsapp",
-			"name": "🏭厂长┃影视┃测试",
+			"key": "csp_学习乐园",
+			"name": "👩‍🏫学习┃乐园┃测试",
 			"type": 3,
+			"searchable": 0,
 			"playerType": 2,
-			"api": "csp_Czsapp",
-			"ext": "https://czzy.art"
+			"api": "csp_Bili",
+			"ext": "https://agit.ai/qi169/kankan/raw/branch/master/学习乐园.json"
+		},
+		{
+			"key": "XYQH_兔小贝",
+			"name": "👶儿歌┃启蒙┃测试",
+			"type": 3,
+			"searchable": 0,
+			"playerType": 2,
+			"api": "csp_XYQHiker",
+			"ext": "http://shuyuan.miaogongzi.net/shuyuan/1687275790.json"
+		},
+		{
+			"key": "XYQH_播视童趣",
+			"name": "👶童趣┃启蒙┃测试",
+			"type": 3,
+			"searchable": 0,
+			"playerType": 2,
+			"api": "csp_XYQHiker",
+			"ext": "http://shuyuan.miaogongzi.net/shuyuan/1687261045.json"
+		},
+		{
+			"key": "XYQH_有声小说网",
+			"name": "🎧有声┃小说┃测试",
+			"type": 3,
+			"searchable": 0,
+			"playerType": 2,
+			"api": "csp_XYQHiker",
+			"ext": "http://shuyuan.miaogongzi.net/shuyuan/1687320561.json"
+		},
+		{
+			"key": "drpy_DJ音乐",
+			"name": "🎧DJ┃摇摆吧┃测试",
+			"type": 3,
+			"searchable": 0,
+			"api": "https://gitee.com/zhen169/ikdd/raw/master/drpy.min.js",
+			"ext": "https://notabug.org/qizhen15800/My9394/raw/master/js/DJ音乐.js"
+		},
+		{
+			"key": "XYQH_呦呦dj",
+			"name": "🎧呦呦┃DJ┃测试",
+			"type": 3,
+			"searchable": 0,
+			"playerType": 2,
+			"api": "csp_XYQHiker",
+			"ext": "http://shuyuan.miaogongzi.net/shuyuan/1687261670.json"
+		},
+		{
+			"key": "drpy_酷奇",
+			"name": "🎵酷奇┃MV┃测试",
+			"type": 3,
+			"searchable": 0,
+			"api": "https://gitee.com/zhen169/ikdd/raw/master/drpy.min.js",
+			"ext": "https://notabug.org/qizhen15800/My9394/raw/master/js/酷奇MV.js"
+		},
+		{
+			"key": "drpy_A8音乐",
+			"name": "🎵A8┃MV┃测试",
+			"type": 3,
+			"searchable": 0,
+			"api": "https://gitee.com/zhen169/ikdd/raw/master/drpy2.min.js",
+			"ext": "https://agit.ai/qi169/kankan/raw/branch/master/A8音乐.js"
 		},
 		{
 			"key": "歌手_MV",
@@ -104,8 +244,67 @@
 			"searchable": 0
 		},
 		{
-			"key": "csp_测试结束",
-			"name": "🛫测试┃5",
+			"key": "py_个人中心",
+			"name": "🇧B站中心┃测试PY需软件支持",
+			"type": 3,
+			"api": "py_bilivd",
+			"ext": "https://notabug.org/qizhen15800/My9394/raw/master/PY/b站个人中心.py"
+		},
+		{
+			"key": "py_央视片库",
+			"name": "📺央视片库┃测试PY需软件支持",
+			"type": 3,
+			"api": "py_cctv",
+			"ext": "https://notabug.org/qizhen15800/My9394/raw/master/PY/央视片库.py"
+		},
+		{
+			"key": "py_央视节目",
+			"name": "🇨🇳央视节目┃测试PY需软件支持",
+			"type": 3,
+			"api": "py_cctv",
+			"ext": "https://notabug.org/qizhen15800/My9394/raw/master/PY/央视节目.py"
+		},
+		{
+			"key": "drpy_JustLive",
+			"name": "⚽直播 | 测试JustLive",
+			"type": 3,
+			"searchable": 0,
+			"api": "https://gitee.com/zhen169/ikdd/raw/master/drpy.min.js",
+			"changeable": 0,
+			"ext": "https://gitee.com/zhen169/ikdd/raw/master/JRKAN%E7%9B%B4%E6%92%AD.js"
+		},
+		{
+			"key": "drpy_小腾",
+			"name": "🐧小Q┃影视┃测试",
+			"type": 3,
+			"api": "https://gitee.com/zhen169/ikdd/raw/master/drpy2.min.js",
+			"ext": "https://agit.ai/qi169/kankan/raw/branch/master/腾云驾雾.js"
+		},
+		{
+			"key": "drpy_异果",
+			"name": "🥝小爱┃影视┃测试",
+			"type": 3,
+			"api": "https://gitee.com/zhen169/ikdd/raw/master/drpy2.min.js",
+			"ext": "https://agit.ai/qi169/kankan/raw/branch/master/奇珍异兽.js"
+		},
+		{
+			"key": "drpy_无果",
+			"name": "🏝忙果┃影视┃测试",
+			"type": 3,
+			"playerType": 1,
+			"api": "https://gitee.com/zhen169/ikdd/raw/master/drpy2.min.js",
+			"ext": "https://agit.ai/qi169/kankan/raw/branch/master/百忙无果.js"
+		},
+		{
+			"key": "drpy_U酷",
+			"name": "🆒小酷┃影视┃测试",
+			"type": 3,
+			"api": "https://gitee.com/zhen169/ikdd/raw/master/drpy2.min.js",
+			"ext": "https://agit.ai/qi169/kankan/raw/branch/master/U酷.js"
+		},
+		{
+			"key": "csp_随缘测试将不会有阿里系",
+			"name": "🛫测试┃不得商业用途",
 			"type": 0,
 			"api": "",
 			"searchable": 0,
@@ -117,6 +316,7 @@
 {"name":"Json聚合","type":3,"url":"Demo"},
 {"name":"Web聚合","type":3,"url":"Web"},
 {"name":"1","type":0,"url":"https://www.fantuantva.com/jiexi/jiexi-gf/?url="},
+{"name":"0","type":0,"url":"https://www.m3u8.tv.cdn.8old.cn/jx.php?url="},
 {"name":"88","type":0,"url":"http://aabbcc.work:14565/?url=","ext":{"flag":["qq","qiyi","youku","sohu","letv","imgo","mgtv","bilibili","xigua"],"header": 
 {"User-Agent":"Mozilla/5.0 AppleWebKit/605.1.15 Version/13.0.3 Mobile/15E148 Safari/604.1","Referer": "http://aabbcc.work:5478/"}}
 },
@@ -143,7 +343,7 @@
   {
     "name": "live",
     "type": 0,
-    "url": "https://notabug.org/qizhen15800/My9394/raw/master/live/tv.txt",
+    "url": "http://shuyuan.miaogongzi.net/shuyuan/1688633629.txt",
     "epg": "https://epg.112114.xyz/?ch={name}&date={date}",
     "logo": "https://epg.112114.xyz/logo/{name}.png",
     "ua": "okhttp/3.12.13"
