@@ -79,6 +79,7 @@
 			"type": 3,
 			"searchable": 1,
 			"changeable": 1,
+			"playerType": 1,
 			"api": "https://gitee.com/zhen169/ikdd/raw/master/drpy2.min.js",
 			"ext": "https://gitee.com/zhen169/ikdd/raw/master/js/哔哩影视.js"
 		},
@@ -112,6 +113,9 @@
 			"key": "drpy_在线之家",
 			"name": "🏜在线┃之家┃测试",
 			"type": 3,
+			"searchable": 1,
+			"changeable": 1,
+			"playerType": 2,
 			"api": "https://gitee.com/zhen169/ikdd/raw/master/drpy2.min.js",
 			"ext": "https://gitee.com/zhen169/ikdd/raw/master/js/在线之家.js"
 		},
@@ -121,8 +125,39 @@
 			"type": 3,
 			"searchable": 1,
 			"changeable": 1,
+			"playerType": 2,
 			"api": "csp_AppYsV2",
 			"ext": "https://aidiapp.xyz/xgapp.php/v3/"
+		},
+		{
+			"key": "drpy_LIBVIO",
+			"name": "🍩利奥┃影视┃测试",
+			"type": 3,
+			"searchable": 1,
+			"changeable": 1,
+			"playerType": 1,
+			"api": "https://gitee.com/zhen169/ikdd/raw/master/drpy2.min.js",
+			"ext": "https://gitee.com/zhen169/ikdd/raw/master/js/LIBVIO.js"
+		},
+		{
+			"key": "drpy_骚火电影",
+			"name": "🔥骚火┃影视┃测试",
+			"type": 3,
+			"searchable": 1,
+			"changeable": 1,
+			"playerType": 2,
+			"api": "https://gitee.com/zhen169/ikdd/raw/master/drpy2.min.js",
+			"ext": "https://gitee.com/zhen169/ikdd/raw/master/js/骚火电影.js"
+		},
+		{
+			"key": "drpy_cokemv",
+			"name": "🥤可乐┃影视┃测试",
+			"type": 3,
+			"searchable": 1,
+			"changeable": 1,
+			"playerType": 2,
+			"api": "https://gitee.com/zhen169/ikdd/raw/master/drpy2.min.js",
+			"ext": "https://gitee.com/zhen169/ikdd/raw/master/js/cokemv.js"
 		},
 		{
 			"key": "drpy_农民",
@@ -227,7 +262,7 @@
 		},
 		{
 			"key": "drpy_2bt",
-			"name": "🎭2bt┃影视┃测试",
+			"name": "🥨2bt┃影视┃测试",
 			"type": 3,
 			"searchable": 1,
 			"changeable": 1,
@@ -254,6 +289,7 @@
 			"key": "apv2_旧欢如梦",
 			"name": "🕊旧梦┃解析┃测试",
 			"type": 3,
+			"playerType": 1,
 			"api": "csp_AppYsV2",
 			"ext": "http://43.139.139.17:4433/api.php/app/"
 		},
@@ -261,6 +297,7 @@
 			"key": "drpy_小腾",
 			"name": "🐧小Q┃解析┃测试",
 			"type": 3,
+			"playerType": 1,
 			"api": "https://gitee.com/zhen169/ikdd/raw/master/drpy2.min.js",
 			"ext": "https://agit.ai/qi169/kankan/raw/branch/master/腾云驾雾.js"
 		},
@@ -268,6 +305,7 @@
 			"key": "drpy_异果",
 			"name": "🥝小爱┃解析┃测试",
 			"type": 3,
+			"playerType": 1,
 			"api": "https://gitee.com/zhen169/ikdd/raw/master/drpy2.min.js",
 			"ext": "https://agit.ai/qi169/kankan/raw/branch/master/奇珍异兽.js"
 		},
@@ -275,6 +313,7 @@
 			"key": "drpy_U酷",
 			"name": "🆒小酷┃解析┃测试",
 			"type": 3,
+			"playerType": 1,
 			"api": "https://gitee.com/zhen169/ikdd/raw/master/drpy2.min.js",
 			"ext": "https://agit.ai/qi169/kankan/raw/branch/master/U酷.js"
 		},
@@ -287,20 +326,30 @@
 			"ext": "https://agit.ai/qi169/kankan/raw/branch/master/百忙无果.js"
 		},
 		{
+			"key": "drpy_蘑菇",
+			"name": "🍄蘑菇┃影视┃测试",
+			"type": 3,
+			"searchable": 1,
+			"changeable": 1,
+			"playerType": 2,
+			"api": "https://gitee.com/zhen169/ikdd/raw/master/drpy2.min.js",
+			"ext": "https://gitee.com/zhen169/ikdd/raw/master/js/蘑菇.js"
+		},
+		{
+			"key": "drpy_煎蛋",
+			"name": "🍳煎蛋┃影视┃测试",
+			"type": 3,
+			"searchable": 1,
+			"changeable": 1,
+			"api": "https://gitee.com/zhen169/ikdd/raw/master/drpy2.min.js",
+			"ext": "https://gitee.com/zhen169/ikdd/raw/master/js/蛋蛋剧.js"
+		},
+		{
 			"key": "XYQH_双十",
 			"name": "🛍双十┃影视┃测试",
 			"type": 3,
 			"api": "csp_XYQHiker",
 			"ext": "https://gitee.com/zhen169/ikdd/raw/master/XYQHiker/双十电影.json"
-		},
-		{
-			"key": "drpy_骚火",
-			"name": "🔥骚火┃影视┃测试",
-			"type": 3,
-			"changeable": 1,
-			"playerType": 2,
-			"api": "https://gitee.com/zhen169/ikdd/raw/master/drpy2.min.js",
-			"ext": "https://gitee.com/zhen169/ikdd/raw/master/js/骚火.js"
 		},
 		{
 			"key": "drpy_乐猪",
@@ -329,7 +378,7 @@
 			"api": "http://zy.xiaomaomi.cc/api.php/provide/vod/",
 			"playUrl": "",
 			"changeable": 1,
-			"playerType": 2,
+			"playerType": 1,
 			"categories": [
 				"国产剧",
 				"港台剧",
@@ -360,8 +409,8 @@
 			"ext": "http://154.204.178.161:880/api.php/app/"
 		},
 		{
-			"key": "apv2_酱油",
-			"name": "🏄酱油┃影视┃测试",
+			"key": "apv2_香槟",
+			"name": "🍾香槟┃影视┃测试",
 			"type": 3,
 			"playerType": 1,
 			"api": "csp_AppYsV2",
@@ -379,7 +428,7 @@
 		},
 		{
 			"key": "drpy_A8音乐",
-			"name": "🎵A8┃MV",
+			"name": "🎵A8┃MV┃测试",
 			"type": 3,
 			"searchable": 0,
 			"api": "https://gitee.com/zhen169/ikdd/raw/master/drpy.min.js",
@@ -387,7 +436,7 @@
 		},
 		{
 			"key": "drpy_DJ音乐",
-			"name": "🎧DJ┃摇摆吧",
+			"name": "🎧DJ┃摇摆吧┃测试",
 			"type": 3,
 			"searchable": 0,
 			"api": "https://gitee.com/zhen169/ikdd/raw/master/drpy.min.js",
@@ -395,7 +444,7 @@
 		},
 		{
 			"key": "drpy_喜马拉雅",
-			"name": "🎧喜马┃拉雅",
+			"name": "🎧喜马┃拉雅┃测试",
 			"type": 3,
 			"api": "https://gitee.com/zhen169/ikdd/raw/master/drpy2.min.js",
 			"ext": "https://agit.ai/qi169/kankan/raw/branch/master/喜马拉雅.js"
@@ -427,14 +476,14 @@
 		},
 		{
 			"key": "XYQH_freeOK",
-			"name": "🆗OK┃影视",
+			"name": "🆗OK┃影视┃测试",
 			"type": 3,
 			"api": "csp_XYQHiker",
 			"ext": "https://gitee.com/zhen169/ikdd/raw/master/XYQHiker/freeOK.json"
 		},
 		{
 			"key": "XYQH_达达贵",
-			"name": "🏜达龟┃之家",
+			"name": "🏜达龟┃之家┃测试",
 			"type": 3,
 			"api": "csp_XYQHiker",
 			"ext": "https://gitee.com/zhen169/ikdd/raw/master/XYQHiker/达达龟.json"
