@@ -28,24 +28,6 @@
       "type_flag": 0
     },
     {
-      "key": "csp_Kunyu77",
-      "name": "🎰七七┃通用┃不得违法用途",
-      "type": 3,
-      "searchable": 1,
-      "changeable": 1,
-      "playerType": 2,
-      "api": "csp_Kunyu77"
-    },
-    {
-      "key": "drpy_农民",
-      "name": "🌾农民┃影视┃测试",
-      "type": 3,
-      "searchable": 1,
-      "changeable": 1,
-      "api": "https://agit.ai/qi169/kankan/raw/branch/master/drpy2.min.js",
-      "ext": "https://agit.ai/qi169/kankan/raw/branch/master/js/农民.js"
-    },
-    {
       "key": "drpy_骚火电影",
       "name": "🔥骚火┃影视┃测试",
       "type": 3,
@@ -54,15 +36,6 @@
       "playerType": 2,
       "api": "https://agit.ai/qi169/kankan/raw/branch/master/drpy2.min.js",
       "ext": "https://agit.ai/qi169/kankan/raw/branch/master/js/骚火.js"
-    },
-    {
-      "key": "drpy_乐猪",
-      "name": "🐷乐猪┃影视┃测试",
-      "type": 3,
-      "changeable": 1,
-      "playerType": 1,
-      "api": "https://agit.ai/qi169/kankan/raw/branch/master/drpy2.min.js",
-      "ext": "http://shuyuan.miaogongzi.net/shuyuan/1689201363.json"
     },
     {
       "key": "drpy_Czsapp",
@@ -75,14 +48,110 @@
       "ext": "https://agit.ai/qi169/kankan/raw/branch/master/js/厂长.js"
     },
     {
-      "key": "t4_玩偶哥哥",
-      "name": "👽玩偶┃t4┃测试",
-      "type": 4,
-      "changeable": 1,
-      "playerType": 1,
-      "api": "http://home.jundie.top:9520/spider/csp_Wogg?sort=原画,蓝光,超清,高清&token=https://agit.ai/qi169/kankan/raw/branch/master/alitoken.txt"
+      "key": "XYQH_在线之家",
+      "name": "🏜在线┃之家┃测试",
+      "type": 3,
+      "api": "csp_XYQHiker",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "ext": "https://agit.ai/qi169/kankan/raw/branch/master/XYQHiker/在线之家.json"
     },
     {
+      "key": "drpy_乐猪",
+      "name": "🐷乐猪┃影视┃测试",
+      "type": 3,
+      "changeable": 1,
+      "playerType": 1,
+      "api": "https://agit.ai/qi169/kankan/raw/branch/master/drpy2.min.js",
+      "ext": "http://shuyuan.miaogongzi.net/shuyuan/1689201363.json"
+    },
+    {
+      "key": "t4_玩偶哥哥",
+      "name": "👽俊哥哥┃随缘┃测试",
+      "type": 4,
+      "changeable": 1,
+      "playerType": 2,
+      "api": "http://home.jundie.top:9520/spider/csp_Wogg?sort=原画,蓝光,超清,高清&token=342a28053dd54cf2b0246c6b33c74013"
+    },
+    {
+      "key": "玩具",
+      "name": "👽好吧┃随缘┃测试",
+      "type": 1,
+      "changeable": 1,
+      "playerType": 1,
+      "timeout": 30,
+      "api": "http://xn--yetu07f.xn--yetu07f.icu:66/api.php/provide/vod/?ac=list"
+    },
+   {
+      "key": "drpy_奇优影院",
+      "name": "🎠奇优┃影院┃测试",
+      "type": 3,
+      "searchable": 1,
+      "changeable": 1,
+      "playerType": 2,
+      "api": "https://agit.ai/qi169/kankan/raw/branch/master/drpy2.min.js",
+      "ext": "https://agit.ai/qi169/kankan/raw/branch/master/js/奇优影院.js"
+    },
+     {
+      "key": "drpy_零度",
+      "name": "🏔零度┃影视┃测试",
+      "type": 3,
+      "searchable": 1,
+      "changeable": 1,
+      "playerType": 2,
+      "api": "https://agit.ai/qi169/kankan/raw/branch/master/drpy2.min.js",
+      "ext": "https://agit.ai/qi169/kankan/raw/branch/master/js/零度影视.js"
+    },
+   {
+      "key": "drpy_freeOK",
+      "name": "🆗OK┃影视┃测试",
+      "type": 3,
+      "searchable": 1,
+      "changeable": 1,
+      "api": "https://agit.ai/qi169/kankan/raw/branch/master/drpy2.min.js",
+      "ext": "https://agit.ai/qi169/kankan/raw/branch/master/js/FreeOK.js"
+    },
+    {
+      "key": "XYQH_农民",
+      "name": "农民影视┃影视┃测试",
+      "type": 3,
+      "api": "csp_XYQHiker",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "ext": "https://agit.ai/qi169/kankan/raw/branch/master/XYQHiker/农民影视.json"
+    },
+    {
+      "key": "csp_Kunyu77",
+      "name": "🎰七七┃通用┃不得违法用途",
+      "type": 3,
+      "searchable": 1,
+      "changeable": 1,
+      "playerType": 2,
+      "api": "csp_Kunyu77"
+    },
+    {
+      "key": "drpy_南瓜",
+      "name": "🍈南瓜┃影视┃测试",
+      "type": 3,
+      "searchable": 1,
+      "changeable": 1,
+      "playerType": 2,
+      "api": "https://agit.ai/qi169/kankan/raw/branch/master/drpy2.min.js",
+      "ext": "https://agit.ai/qi169/kankan/raw/branch/master/js/南瓜.js"
+    },
+    {
+      "key": "drpy_蘑菇",
+      "name": "🍄蘑菇┃影视┃测试",
+      "type": 3,
+      "searchable": 1,
+      "changeable": 1,
+      "playerType": 2,
+      "api": "https://agit.ai/qi169/kankan/raw/branch/master/drpy2.min.js",
+      "ext": "https://agit.ai/qi169/kankan/raw/branch/master/js/蘑菇.js"
+    },
+      {
       "key": "drpy_哔哩影视",
       "name": "👨‍💻哔哩┃影视┃测试",
       "type": 3,
@@ -107,35 +176,58 @@
       "name": "📺电视┃直播┃测试",
       "type": 3,
       "playerType": 1,
-      "api": "https://gitee.com/zhen169/ikdd/raw/master/直播转点播.js",
+      "api": "https://agit.ai/qi169/kankan/raw/branch/master/js/直播转点播.js",
       "changeable": 0,
-      "ext": "https://gitee.com/zhen169/ikdd/raw/master/电视直播.json"
+      "ext": "https://agit.ai/qi169/kankan/raw/branch/master/js/电视直播.json"
     },
     {
       "key": "直播转点播",
       "name": "📻电台┃之声┃测试",
       "type": 3,
-      "api": "https://agit.ai/qi169/kankan/raw/branch/master/直播转点播.js",
+      "api": "https://agit.ai/qi169/kankan/raw/branch/master/js/直播转点播.js",
       "changeable": 0,
       "ext": "http://shuyuan.miaogongzi.net/shuyuan/1688553723.json"
     },
     {
+			"key": "cjzy_量子",
+			"name": "🌀量子┃影视┃测试",
+			"type": 0,
+			"searchable": 1,
+			"changeable": 1,
+			"api": "https://cj.lziapi.com/api.php/provide/vod/at/xml/",
+			"playUrl": "",
+			"categories": [
+				"国产剧","国产动漫","香港剧","韩国剧","欧美剧","动作片","喜剧片","爱情片","科幻片","恐怖片","剧情片","战争片","记录片","台湾剧","日本剧","海外剧","泰国剧","大陆综","艺港台综艺","日韩综艺","欧美综艺","日韩动漫","欧美动漫","港台动漫","海外动漫","电影解说","体育","足球","篮球","网球","斯诺克","预告片","短剧"
+			]
+		},
+     {
       "key": "drpy_365",
-      "name": "??365┃仅供学习参考┃测试",
+      "name": "🌎365┃仅供学习参考┃测试",
       "type": 3,
       "changeable": 1,
       "playerType": 1,
-      "api": "https://gitee.com/zhen169/ikdd/raw/master/drpy2.min.js",
-      "ext": "http://shuyuan.miaogongzi.net/shuyuan/1689221387.json"
-    },
-    {
-      "key": "drpy_freeOK",
-      "name": "🆗OK┃影视┃测试",
-      "type": 3,
       "api": "https://agit.ai/qi169/kankan/raw/branch/master/drpy2.min.js",
-      "ext": "https://agit.ai/qi169/kankan/raw/branch/master/js/freeOK.js"
+      "ext": "https://agit.ai/qi169/kankan/raw/branch/master/js/菜狗.js"
     },
     {
+      "key": "drpy_搜狗",
+      "name": "🌎菜狗┃仅供学习参考┃测试",
+      "type": 3,
+      "changeable": 1,
+      "playerType": 1,
+      "api": "https://agit.ai/qi169/kankan/raw/branch/master/drpy2.min.js",
+      "ext": "https://agit.ai/qi169/kankan/raw/branch/master/js/菜狗.js"
+    },
+    {
+      "key": "apv2_迷你库",
+      "name": "📮迷库┃影视┃测试",
+      "type": 3,
+      "api": "csp_AppYsV2",
+      "searchable": 1,
+      "changeable": 1,
+      "ext": "http://www.miniku.cc/xgapp.php/v2/"
+    },
+   {
       "key": "drpy_ddys",
       "name": " 🛃低端┃影视┃测试",
       "type": 3,
@@ -145,17 +237,7 @@
       "api": "https://agit.ai/qi169/kankan/raw/branch/master/drpy2.min.js",
       "ext": "https://agit.ai/qi169/kankan/raw/branch/master/js/ddys.js"
     },
-    {
-      "key": "drpy_零度",
-      "name": "🏔零度┃影视┃测试",
-      "type": 3,
-      "searchable": 1,
-      "changeable": 1,
-      "playerType": 2,
-      "api": "https://agit.ai/qi169/kankan/raw/branch/master/drpy2.min.js",
-      "ext": "https://agit.ai/qi169/kankan/raw/branch/master/js/零度影视.js"
-    },
-    {
+     {
       "key": "csp_Ikanbot",
       "name": "👾Ikanbot┃影视┃测试",
       "type": 3,
@@ -190,15 +272,6 @@
       ]
     },
     {
-      "key": "t4_bbcli",
-      "name": "👽b┃t4┃测试",
-      "type": 4,
-      "changeable": 1,
-      "playerType": 1,
-      "api": "http://home.jundie.top:9520/spider/cli_Bili?sort=dash,mp4",
-      "ext": "https://agit.ai/qi169/kankan/raw/branch/master/BBUltimate.json"
-    },
-    {
       "key": "Bili_聚合",
       "name": "🅱️哔哩┃聚合┃Ultimate┃测试",
       "type": 3,
@@ -224,13 +297,21 @@
       "ext": "https://agit.ai/qi169/kankan/raw/branch/master/py_cctv"
     },
     {
-      "key": "apv2_迷你库",
-      "name": "📮迷库┃影视┃测试",
+      "key": "apv2_A8",
+      "name": "📮A8┃影视┃测试",
       "type": 3,
       "api": "csp_AppYsV2",
       "searchable": 1,
       "changeable": 1,
-      "ext": "http://www.miniku.cc/xgapp.php/v2/"
+      "ext": "https://aaa.a8ys.xyz/ruifenglb_api.php/v1.vod"
+    },
+    {
+      "key": "廠長",
+      "name": "廠長",
+      "type": 3,
+      "api": "https://fongmi.cachefly.net/FongMi/CatVodOpen/main/open/czzy_open.js",
+      "searchable": 1,
+      "changeable": 1
     },
     {
       "key": "drpy_在线之家",
@@ -260,7 +341,7 @@
       "changeable": 1,
       "playerType": 1,
       "api": "https://agit.ai/qi169/kankan/raw/branch/master/drpy2.min.js",
-      "ext": "https://agit.ai/qi169/kankan/raw/branch/master/js/LIBVIO.js"
+      "ext": "https://agit.ai/qi169/kankan/raw/branch/master/js/libvio.js"
     },
     {
       "key": "drpy_cokemv",
@@ -282,10 +363,33 @@
       "ext": "https://sk100.tv/api.php/app/"
     },
     {
+			"key": "drpy_A8音乐",
+			"name": "🎵A8┃MV┃测试",
+			"type": 3,
+			"searchable": 0,
+			"api": "https://gitee.com/zhen169/ikdd/raw/master/drpy.min.js",
+			"ext": "http://shuyuan.miaogongzi.net/shuyuan/1687339319.json"
+		},
+		{
+			"key": "drpy_DJ音乐",
+			"name": "🎧DJ┃摇摆吧┃测试",
+			"type": 3,
+			"searchable": 0,
+			"api": "https://gitee.com/zhen169/ikdd/raw/master/drpy.min.js",
+			"ext": "https://notabug.org/qizhen15800/My9394/raw/master/js/DJ音乐.js"
+	},
+    {
+      "key": "drpy__酷我MV",
+      "name": "🎵酷我┃MV┃测试",
+      "type": 3,
+      "api": "https://agit.ai/qi169/kankan/raw/branch/master/drpy2.min.js",
+      "ext": "https://agit.ai/qi169/kankan/raw/branch/master/js/酷奇MV.js"
+    },
+    {
       "key": "歌手_MV",
       "name": "🎵歌手┃MV┃测试",
       "type": 1,
-      "api": "https://tvbox-mv--leosam2048.repl.co/mv/vod",
+      "api": "https://mv.wogg.link/mv/vod",
       "searchable": 0
     },
     {
@@ -293,7 +397,14 @@
       "name": "🎧喜马┃拉雅┃测试",
       "type": 3,
       "api": "https://agit.ai/qi169/kankan/raw/branch/master/drpy2.min.js",
-      "ext": "https://agit.ai/qi169/kankan/raw/branch/master/喜马拉雅.js"
+      "ext": "https://agit.ai/qi169/kankan/raw/branch/master/js/喜马拉雅.js"
+    },
+    {
+      "key": "drpy_有声小说吧",
+      "name": "🎧有声┃小说┃测试",
+      "type": 3,
+      "api": "https://agit.ai/qi169/kankan/raw/branch/master/drpy2.min.js",
+      "ext": "https://agit.ai/qi169/kankan/raw/branch/master/js/有声小说吧.js"
     },
     {
       "key": "XYQaL_玩偶哥哥",
@@ -310,7 +421,7 @@
       "type": 3,
       "playerType": 1,
       "api": "https://agit.ai/qi169/kankan/raw/branch/master/drpy2.min.js",
-      "ext": "https://agit.ai/qi169/kankan/raw/branch/master/奇珍异兽.js"
+      "ext": "https://agit.ai/qi169/kankan/raw/branch/master/js/奇珍异兽.js"
     },
     {
       "key": "drpy_小腾",
@@ -318,7 +429,7 @@
       "type": 3,
       "playerType": 1,
       "api": "https://agit.ai/qi169/kankan/raw/branch/master/drpy2.min.js",
-      "ext": "https://agit.ai/qi169/kankan/raw/branch/master/腾云驾雾.js"
+      "ext": "https://agit.ai/qi169/kankan/raw/branch/master/js/腾云驾雾.js"
     },
     {
       "key": "drpy_U酷",
@@ -326,7 +437,7 @@
       "type": 3,
       "playerType": 1,
       "api": "https://agit.ai/qi169/kankan/raw/branch/master/drpy2.min.js",
-      "ext": "https://agit.ai/qi169/kankan/raw/branch/master/U酷.js"
+      "ext": "https://agit.ai/qi169/kankan/raw/branch/master/js/u酷.js"
     },
     {
       "key": "drpy_无果",
@@ -334,7 +445,7 @@
       "type": 3,
       "playerType": 1,
       "api": "https://agit.ai/qi169/kankan/raw/branch/master/drpy2.min.js",
-      "ext": "https://agit.ai/qi169/kankan/raw/branch/master/百忙无果.js"
+      "ext": "https://agit.ai/qi169/kankan/raw/branch/master/js/百忙无果.js"
     },
     {
       "key": "drpy_JianPian",
@@ -551,12 +662,13 @@
     }
   ],
   "parses":[
-//{"name":"Json聚合","type":3,"url":"Demo"},
-//{"name":"Web聚合","type":3,"url":"Web"},
+{"name":"Json聚合","type":3,"url":"Demo"},
+{"name":"Web聚合","type":3,"url":"Web"},
 {"name":"🌐左岸","type":0,"url":"https://jx.jsonplayer.com/player/?url=","ext":{"flag":["qq","腾讯","qiyi","爱奇艺","奇艺","youku","优酷","mgtv","芒果","letv","leshi","LS","pptv","PPTV","sohu","bilibili","哔哩哔哩","哔哩"],"header":{"User-Agent":"okhttp/3.12.13"}}},
 {"name":"🌐虾米","type":0,"url":"https://jx.xmflv.com/?url=","ext":{"flag":["qq","腾讯","qiyi","爱奇艺","奇艺","youku","优酷","mgtv","芒果","letv","leshi","LS","pptv","PPTV","sohu","bilibili","哔哩哔哩","哔哩"],"header":{"User-Agent":"okhttp/3.12.13"}}},
 {"name":"🌐777","type":0,"url":"https://jx.777jiexi.com/player/?url=","ext":{"flag":["qq","腾讯","qiyi","爱奇艺","奇艺","youku","优酷","mgtv","芒果","letv","leshi","LS","pptv","PPTV","sohu","bilibili","哔哩哔哩","哔哩"],"header":{"User-Agent":"okhttp/3.12.13"}}},
 {"name":"🌐bozrc","type":0,"url":"https://jx.bozrc.com:4433/player/?url=","ext":{"flag":["qq","腾讯","qiyi","爱奇艺","奇艺","youku","优酷","mgtv","芒果","letv","leshi","LS","pptv","PPTV","sohu","bilibili","哔哩哔哩","哔哩"],"header":{"User-Agent":"okhttp/3.12.13"}}},
+{"name":"🌎稀稀","type": 1,"url": "http://110.42.2.247:880/analysis/json/?uid=2255&my=eknpqvADFHOPR02458&format=json&url=","ext":{"flag":["qq","腾讯","qiyi","爱奇艺","奇艺","youku","优酷","mgtv","芒果","letv","leshi","LS","pptv","PPTV","sohu","bilibili","哔哩哔哩","哔哩"],"header":{"User-Agent":"okhttp/3.12.13"}}},
 {"name":"🌎施施","type": 1,"url": "http://110.42.2.247:880/analysis/json/?uid=2100&my=ehilmnqyCDGHILNUXZ&mgtv=app&url=","ext":{"flag":["qq","腾讯","qiyi","爱奇艺","奇艺","youku","优酷","mgtv","芒果","letv","leshi","LS","pptv","PPTV","sohu","bilibili","哔哩哔哩","哔哩"],"header":{"User-Agent":"okhttp/3.12.13"}}},
 {"name":"🌎夕夕","type": 1,"url": "http://110.42.2.247:880/analysis/json/?uid=2384&my=bcijquvxAFKMUY0579&format=json&url=","ext":{"flag":["qq","腾讯","qiyi","爱奇艺","奇艺","youku","优酷","mgtv","芒果","letv","leshi","LS","pptv","PPTV","sohu","bilibili","哔哩哔哩","哔哩"],"header":{"User-Agent":"okhttp/3.12.13"}}},
 {"name":"🌎西西","type": 1,"url": "http://110.42.2.247:880/analysis/json/?uid=2255&my=eimqrtwxBCDIKT2458&format=json&url=","ext":{"flag":["qq","腾讯","qiyi","爱奇艺","奇艺","youku","优酷","mgtv","芒果","letv","leshi","LS","pptv","PPTV","sohu","bilibili","哔哩哔哩","哔哩"],"header":{"User-Agent":"okhttp/3.12.13"}}},
@@ -575,12 +687,13 @@
 "wallpaper":"http://www.kf666888.cn/api/tvbox/img",
 "rules": [{"host":"www.iesdouyin.com","rule":["playwm/?video_id="]},
 {"host":"v.douyin.com","rule":["playwm/?video_id="]},
-{"name": "量子","hosts": ["vip.lz","hd.lz"],
-"regex": ["#EXT-X-DISCONTINUITY\\r*\\n*#EXTINF:6.433333,[\\s\\S]*?#EXT-X-DISCONTINUITY","#EXTINF.*?\\s+.*?1o.*?\\.ts\\s+"]},
-{"name": "非凡","hosts": ["vip.ffzy","hd.ffzy"],     
-"regex": ["#EXT-X-DISCONTINUITY\\r*\\n*#EXTINF:6.666667,[\\s\\S]*?#EXT-X-DISCONTINUITY","#EXTINF.*?\\s+.*?1o.*?\\.ts\\s+"]},
-{"name": "火山","hosts": ["huoshan.com"],"regex": ["item_id="]},
-{"name": "抖音","hosts": ["douyin.com"],"regex": ["is_play_url="]}],     
+{"name":"暴风廣告","hosts":["bfzy","s5.bfzycdn"],"regex":["#EXT-X-DISCONTINUITY\\r*\\n*#EXTINF:3,[\\s\\S]*?#EXT-X-DISCONTINUITY"]},
+{"name":"磁力廣告","hosts":["magnet"],"regex":["更多","社區","xuu","最新","最新","直播","更新","社区","有趣","有趣","英皇体育","全中文AV在线","澳门皇冠赌场","哥哥快来","美女荷官","裸聊","新片首发","UUE29"]},
+{"name":"星星","hosts":["aws.ulivetv.net"],"regex":["#EXT-X-DISCONTINUITY\\r*\\n*#EXTINF:8,[\\s\\S]*?#EXT-X-DISCONTINUITY","#EXT-X-DISCONTINUITY\\r*\\n*#EXTINF:9,[\\s\\S]*?#EXT-X-DISCONTINUITY"]},
+{"name":"量子廣告","hosts":["vip.lz","hd.lz"],"regex":["#EXT-X-DISCONTINUITY\\r*\\n*#EXTINF:6.433333,[\\s\\S]*?#EXT-X-DISCONTINUITY","#EXTINF.*?\\s+.*?1o.*?\\.ts\\s+"]},
+{"name":"非凡廣告","hosts":["vip.ffzy","hd.ffzy"],"regex":["#EXT-X-DISCONTINUITY\\r*\\n*#EXTINF:6.666667,[\\s\\S]*?#EXT-X-DISCONTINUITY","#EXTINF.*?\\s+.*?1o.*?\\.ts\\s+"]},
+{"name":"火山嗅探","hosts":["huoshan.com"],"regex":["item_id="]},
+{"name":"抖音嗅探","hosts":["douyin.com"],"regex":["is_play_url="]}],     
 "doh": [
 {"name": "腾讯","url": "https://doh.pub/dns-query"},
 {"name": "阿里", "url": "https://dns.alidns.com/dns-query" },
